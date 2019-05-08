@@ -19,6 +19,7 @@
 				<param name="subtitle-visible" value="true" />
 				<param name="subtitle-height" value="75" />
 				<param name="buttonbar-visible" value="true" />
+				<param name="buttonbar-height" value="70" />
 			</include>
 			<!--close window button-->
 			<control type="button">
@@ -26,8 +27,8 @@
 				<top>0</top>
 				<width>50</width>
 				<height>25</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -72,7 +73,7 @@
 					<onright>49</onright>
 					<onup>9000</onup>
 					<ondown>60</ondown>
-					<pagecontrol>-</pagecontrol>
+					<pagecontrol></pagecontrol>
 					<scrolltime>200</scrolltime>
 					<itemlayout height="30">
 						<control type="label">
@@ -139,57 +140,47 @@
 						<item>
 							<label>$LOCALIZE[21442]:</label>
 							<label2>$INFO[ListItem.EpisodeName]</label2>
-							<onclick>noop</onclick>
 							<visible>!String.IsEmpty(ListItem.EpisodeName)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[20373]:</label>
 							<label2>$INFO[ListItem.Season]</label2>
-							<onclick>noop</onclick>
 							<visible>!String.IsEmpty(ListItem.Season)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[20359]:</label>
 							<label2>$INFO[ListItem.Episode]</label2>
-							<onclick>noop</onclick>
 							<visible>!String.IsEmpty(ListItem.Episode)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[19148]:</label>
 							<label2>$INFO[ListItem.ChannelName]</label2>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>$LOCALIZE[142]</label>
 							<label2>$INFO[ListItem.StartTime] - $INFO[ListItem.EndTime] ($INFO[ListItem.StartDate])</label2>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>$LOCALIZE[180]:</label>
 							<label2>$INFO[ListItem.Duration]</label2>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>$LOCALIZE[515]:</label>
 							<label2>$INFO[ListItem.Genre]</label2>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>$LOCALIZE[20417]:</label>
 							<label2>$INFO[ListItem.Writer]</label2>
-							<onclick>noop</onclick>
 							<visible>!String.IsEmpty(ListItem.Writer)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[20339]:</label>
 							<label2>$INFO[ListItem.Director]</label2>
-							<onclick>noop</onclick>
 							<visible>!String.IsEmpty(ListItem.Director)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[206]:</label>
 							<label2>$INFO[ListItem.Cast]</label2>
-							<onclick>noop</onclick>
 							<visible>!String.IsEmpty(ListItem.Cast)</visible>
 						</item>
 					</content>
@@ -211,12 +202,12 @@
 					<left>1090</left>
 					<top>547</top>
 					<subtype>page</subtype>
-					<font>-</font>
+					<font></font>
 					<onleft>60</onleft>
 					<onright>60</onright>
 					<ondown>9000</ondown>
 					<onup>49</onup>
-					<textcolor>-</textcolor>
+					<textcolor></textcolor>
 					<showonepage>true</showonepage>
 					<textureupfocus colordiffuse="$VAR[Colour.500]">scroll-up-2.png</textureupfocus>
 					<texturedownfocus colordiffuse="$VAR[Colour.500]">scroll-down-2.png</texturedownfocus>

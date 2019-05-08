@@ -14,6 +14,7 @@
 				<param name="dialog-width" value="1210" />
 				<param name="glow-width" value="1290" />
 				<param name="buttonbar-visible" value="true" />
+				<param name="buttonbar-height" value="70" />
 			</include>
 			<!--text entry bg-->
 			<control type="image">
@@ -43,8 +44,8 @@
 				<left>5</left>
 				<width>50</width>
 				<height>25</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -78,8 +79,8 @@
 					<focusedcolor>text.primary</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus>-</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturefocus></texturefocus>
+					<texturenofocus></texturenofocus>
 					<onleft>9</onleft>
 					<onright>9</onright>
 					<onup>9000</onup>

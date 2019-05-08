@@ -25,8 +25,8 @@
 				<top>0</top>
 				<width>50</width>
 				<height>25</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -306,6 +306,18 @@
 						<width>330</width>
 						<height>64</height>
 						<label>24020</label>
+						<align>center</align>
+						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
+						<textcolor>white</textcolor>
+						<focusedcolor>$VAR[Colour.900]</focusedcolor>
+						<selectedcolor>$VAR[Colour.900]</selectedcolor>
+						<disabledcolor>$VAR[Colour.400]</disabledcolor>
+					</control>
+					<control type="button" id="10">
+						<description>Addon Dependencies</description>
+						<width>330</width>
+						<height>64</height>
+						<label>39024</label>
 						<align>center</align>
 						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
 						<textcolor>white</textcolor>

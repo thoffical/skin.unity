@@ -46,7 +46,7 @@
 	</include>
 	<include name="PVRSideBlade">
 		<control type="group">
-			<left>-375</left>
+			<left>-383</left>
 			<include>SideBladeLeft</include>
 			<control type="group">
 				<top>100</top>
@@ -135,7 +135,7 @@
 						<right>60</right>
 						<textwidth>352</textwidth>
 						<include>ButtonCommonValues</include>
-						<label>-</label>
+						<label></label>
 					</control>
 					<control type="button" id="2">
 						<description>View As button</description>
@@ -143,7 +143,7 @@
 						<right>60</right>
 						<textwidth>352</textwidth>
 						<include>ButtonCommonValues</include>
-						<label>-</label>
+						<label></label>
 						<visible>Window.IsActive(MyPVRGuide.xml)</visible>
 					</control>
 					<control type="button" id="3">
@@ -168,6 +168,13 @@
 						<selected>Container.Filtered</selected>
 						<onclick>right</onclick>
 						<visible>Window.IsActive(MyPVRChannels.xml)</visible>
+					</control>
+					<control type="button" id="10">
+						<description>Watched Toggle</description>
+						<include>ButtonCommonValues</include>
+						<label>$LOCALIZE[20367]</label>
+						<label2>[B]$INFO[Container.NumNonFolderItems][/B]</label2>
+						<visible>Window.IsActive(MyPVRRecordings.xml)</visible>
 					</control>
 					<control type="radiobutton" id="5">
 						<description>Group recording items by folder structure</description>
@@ -206,6 +213,21 @@
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 			</control>
+		</control>
+	</include>
+	<include name="PVRChannelNumberInput">
+		<control type="label">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<label>$INFO[PVR.ChannelNumberInput]</label>
+			<align>center</align>
+			<font>WeatherTemp</font>
+			<aligny>center</aligny>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>!String.IsEmpty(PVR.ChannelNumberInput)</visible>
 		</control>
 	</include>
 </includes>

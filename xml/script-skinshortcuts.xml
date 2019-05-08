@@ -28,6 +28,7 @@
 				<param name="sidebar-visible" value="true" />
 				<param name="sidebar-width" value="605" />
 				<param name="buttonbar-visible" value="true" />
+				<param name="buttonbar-height" value="70" />
 			</include>
 			<!--close window button-->
 			<control type="button">
@@ -35,8 +36,8 @@
 				<top>0</top>
 				<width>50</width>
 				<height>25</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -58,7 +59,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<label>-</label>
+					<label></label>
 				</control>
 				<control type="group">
 					<left>10</left>
@@ -126,7 +127,7 @@
 							<height>36</height>
 							<left>40</left>
 							<top>12</top>
-							<label>-</label>
+							<label></label>
 							<onup>211</onup>
 							<onleft>302</onleft>
 							<onright>304</onright>
@@ -140,7 +141,7 @@
 							<height>36</height>
 							<left>72</left>
 							<top>12</top>
-							<label>-</label>
+							<label></label>
 							<onup>211</onup>
 							<onleft>303</onleft>
 							<onright>211</onright>
@@ -154,7 +155,7 @@
 							<height>36</height>
 							<left>5</left>
 							<top>12</top>
-							<label>-</label>
+							<label></label>
 							<onup>211</onup>
 							<onleft>31</onleft>
 							<onright>303</onright>

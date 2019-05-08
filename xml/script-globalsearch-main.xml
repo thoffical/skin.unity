@@ -36,8 +36,8 @@
 				<top>0</top>
 				<width>50</width>
 				<height>25</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -79,9 +79,9 @@
 				<top>3000</top>
 				<width>0</width>
 				<height>0</height>
-				<label>-</label>
-				<font>-</font>
-				<textcolor>-</textcolor>
+				<label></label>
+				<font></font>
+				<textcolor></textcolor>
 			</control>
 			<!-- Hide this Control off the screen because we use the label above instead -->
 			<control type="label" id="191">
@@ -89,8 +89,8 @@
 				<top>3000</top>
 				<width>0</width>
 				<height>0</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 			</control>
 			<!--left buttons-->
 			<control type="list" id="9000">
@@ -165,67 +165,56 @@
 					<item id="1">
 						<label>$LOCALIZE[19069]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(220)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(229)</visible>
 					</item>
 					<item id="2">
 						<label>$LOCALIZE[342]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(110)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(119)</visible>
 					</item>
 					<item id="3">
 						<label>$LOCALIZE[344]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(210)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(219)</visible>
 					</item>
 					<item id="4">
 						<label>$LOCALIZE[20343]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(120)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(129)</visible>
 					</item>
 					<item id="5">
 						<label>$LOCALIZE[33054]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(130)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(139)</visible>
 					</item>
 					<item id="6">
 						<label>$LOCALIZE[20360]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(140)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(149)</visible>
 					</item>
 					<item id="7">
 						<label>$LOCALIZE[20389]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(150)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(159)</visible>
 					</item>
 					<item id="8">
 						<label>$LOCALIZE[133]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(160)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(169)</visible>
 					</item>
 					<item id="9">
 						<label>$LOCALIZE[132]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(170)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(179)</visible>
 					</item>
 					<item id="10">
 						<label>$LOCALIZE[134]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(180)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(189)</visible>
 					</item>
 					<item id="11">
 						<label>$LOCALIZE[20348]</label>
 						<label2>$LOCALIZE[31206] $INFO[Control.GetLabel(230)] $LOCALIZE[31025]</label2>
-						<onclick>noop</onclick>
 						<visible>Control.IsVisible(239)</visible>
 					</item>
 					<item id="12">
@@ -262,7 +251,7 @@
 				<top>3000</top>
 				<width>15</width>
 				<height>15</height>
-				<label>-</label>
+				<label></label>
 				<onup>101</onup>
 				<ondown>101</ondown>
 				<onleft>101</onleft>
@@ -283,9 +272,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="221">
 						<visible>Container(9000).HasFocus(1)</visible>
@@ -429,9 +418,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="111">
 						<visible>Container(9000).HasFocus(2)</visible>
@@ -655,9 +644,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="211">
 						<visible>Container(9000).HasFocus(3)</visible>
@@ -881,9 +870,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="121">
 						<visible>Container(9000).HasFocus(4)</visible>
@@ -1045,9 +1034,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="131">
 						<visible>Container(9000).HasFocus(5)</visible>
@@ -1191,9 +1180,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="141">
 						<visible>Container(9000).HasFocus(6)</visible>
@@ -1355,9 +1344,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="151">
 						<visible>Container(9000).HasFocus(7)</visible>
@@ -1542,9 +1531,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="161">
 						<visible>Container(9000).HasFocus(8)</visible>
@@ -1688,9 +1677,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="171">
 						<visible>Container(9000).HasFocus(9)</visible>
@@ -1834,9 +1823,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="181">
 						<visible>Container(9000).HasFocus(10)</visible>
@@ -2021,9 +2010,9 @@
 						<top>3000</top>
 						<width>150</width>
 						<height>0</height>
-						<label>-</label>
-						<font>-</font>
-						<textcolor>-</textcolor>
+						<label></label>
+						<font></font>
+						<textcolor></textcolor>
 					</control>
 					<control type="panel" id="231">
 						<visible>Container(9000).HasFocus(11)</visible>

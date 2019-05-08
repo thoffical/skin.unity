@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol>1</defaultcontrol>
-	<visible>Window.IsVisible(FullScreenVideo) + [Player.Seeking | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowTime]</visible>
-	<visible>![Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide) | Window.IsVisible(SliderDialog)]</visible>
+	<visible>Window.IsVisible(FullScreenVideo) + [Player.Seeking | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowTime] | [[Window.IsActive(fullscreenvideo) | Window.IsActive(visualisation)] + !Window.IsActive(pvrosdchannels) + !String.IsEmpty(PVR.ChannelNumberInput)]</visible>
+	<visible>![Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide) | Window.IsVisible(SliderDialog)]</visible>
+	<visible>![Player.HasGame | Player.FrameAdvance]</visible>
 	<controls>
 		<!--progress-->
 		<control type="group" id="1">
@@ -10,7 +11,6 @@
 			<top>150r</top>
 			<width>1140</width>
 			<visible>!VideoPlayer.Content(LiveTV) | [VideoPlayer.Content(LiveTV) + VideoPlayer.HasEpg]</visible>
-			<animation effect="slide" start="0,0" end="-372,0" time="200" delay="100" condition="Skin.HasSetting(SubtitleSection)">Conditional</animation>
 			<!--chapter-->
 			<control type="label" id="1">
 				<visible>!VideoPlayer.Content(LiveTV)</visible>
@@ -103,5 +103,6 @@
 				<visible>Player.Rewinding | [Player.IsTempo + String.StartsWith(Player.PlaySpeed,0.)]</visible>
 			</control>
 		</control>
+		<include>PVRChannelNumberInput</include>
 	</controls>
 </window>

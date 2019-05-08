@@ -19,6 +19,7 @@
 				<param name="sidebar-visible" value="true" />
 				<param name="sidebar-width" value="320" />
 				<param name="buttonbar-visible" value="true" />
+				<param name="buttonbar-height" value="70" />
 			</include>
 			<!--close window button-->
 			<control type="button">
@@ -26,8 +27,8 @@
 				<top>0</top>
 				<width>50</width>
 				<height>25</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>

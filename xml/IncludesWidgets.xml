@@ -105,7 +105,7 @@
 				<height>330</height>
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
-				<onup>20</onup>
+				<onup>915</onup>
 				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
@@ -348,7 +348,7 @@
 				<height>246</height>
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
-				<onup>20</onup>
+				<onup>915</onup>
 				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
@@ -465,7 +465,7 @@
 				<height>242</height>
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
-				<onup>20</onup>
+				<onup>915</onup>
 				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
@@ -599,7 +599,7 @@
 				<height>330</height>
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
-				<onup>20</onup>
+				<onup>915</onup>
 				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>

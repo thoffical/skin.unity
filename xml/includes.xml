@@ -827,7 +827,7 @@
 	</include>
 	<include name="MainWindowMouseButtons">
 		<!--top buttons-->
-		<control type="group" id="1">
+		<control type="group" id="916">
 			<width>45</width>
 			<height>45</height>
 			<visible>Window.IsActive(Home) | Window.IsVisible(LoginScreen.xml)</visible>
@@ -846,7 +846,7 @@
 				<onleft>921</onleft>
 				<onright>921</onright>
 				<onup>9002</onup>
-				<ondown>9003</ondown>
+				<ondown>9007</ondown>
 			</control>
 			<control type="image">
 				<description>Power Icon</description>
@@ -869,7 +869,7 @@
 				<visible>Control.HasFocus(920)</visible>
 			</control>
 		</control>
-		<control type="group" id="1">
+		<control type="group" id="917">
 			<width>45</width>
 			<height>45</height>
 			<visible>Window.IsActive(Home)</visible>
@@ -888,7 +888,7 @@
 				<onleft>920</onleft>
 				<onright>920</onright>
 				<onup>9002</onup>
-				<ondown>9003</ondown>
+				<ondown>9007</ondown>
 			</control>
 			<control type="image">
 				<description>Favourites Icon</description>
@@ -911,7 +911,7 @@
 				<visible>Control.HasFocus(921)</visible>
 			</control>
 		</control>
-		<control type="group" id="1">
+		<control type="group" id="918">
 			<width>45</width>
 			<height>45</height>
 			<visible>![Window.IsActive(Home) | Window.IsVisible(LoginScreen.xml)] + system.getbool(input.enablemouse)</visible>
@@ -931,7 +931,7 @@
 				<onleft>923</onleft>
 				<onright>923</onright>
 				<onup>9002</onup>
-				<ondown>9003</ondown>
+				<ondown>9007</ondown>
 			</control>
 			<control type="image">
 				<description>Back Icon</description>
@@ -954,7 +954,7 @@
 				<visible>Control.HasFocus(922)</visible>
 			</control>
 		</control>
-		<control type="group" id="1">
+		<control type="group" id="919">
 			<width>45</width>
 			<height>45</height>
 			<visible>![Window.IsActive(Home) | Window.IsVisible(LoginScreen.xml)] + system.getbool(input.enablemouse)</visible>
@@ -974,7 +974,7 @@
 				<onleft>922</onleft>
 				<onright>922</onright>
 				<onup>9002</onup>
-				<ondown>9003</ondown>
+				<ondown>9007</ondown>
 			</control>
 			<control type="image">
 				<description>Home Icon</description>
@@ -1710,7 +1710,7 @@
 		</control>
 	</include>
 	<include name="Clock">
-		<control type="grouplist" id="1">
+		<control type="grouplist" id="915">
 			<right>60</right>
 			<top>60</top>
 			<width>654</width>

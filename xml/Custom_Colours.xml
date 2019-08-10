@@ -6,8 +6,11 @@
 		<control type="group">
 			<centerleft>50%</centerleft>
 			<width>1390</width>
+			<visible>!Window.IsActive(1101)</visible>
 			<animation effect="slide" start="2015,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="-2015,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
+			<animation effect="slide" start="-2015,0" end="0,0" time="400" tween="quadratic" easing="out">Visible</animation>
+			<animation effect="slide" start="0,0" end="-2015,0" time="400" tween="quadratic" easing="out">Hidden</animation>
 			<animation effect="slide" start="0,0" end="-125,0" time="300" condition="Window.IsActive(ShutdownMenu) + !String.IsEqual(Skin.AspectRatio,21:9)">Conditional</animation>
 			<!--title bars and backgrounds-->
 			<include content="DynamicDialogBackground">
@@ -329,6 +332,13 @@
 							<onclick>Skin.SetString(color.alt, FFFFEB3B)</onclick>
 							<thumb>colours/Grey.png</thumb>
 						</item>
+						<item id="20">
+							<!--Custom-->
+							<label>20190</label>
+							<onclick condition="System.HasAddon(script.skin.helper.colorpicker)">ActivateWindow(1101)</onclick>
+							<onclick condition="!System.HasAddon(script.skin.helper.colorpicker)">InstallAddon(script.skin.helper.colorpicker)</onclick>
+							<thumb>colours/Custom.png</thumb>
+						</item>
 					</content>
 				</control>
 				<!--right side fade-->
@@ -345,7 +355,8 @@
 				<!--controls-->
 				<control type="grouplist" id="9000">
 					<top>65r</top>
-					<width>1390</width>
+					<centerleft>50%</centerleft>
+					<width>800</width>
 					<height>60</height>
 					<align>justify</align>
 					<orientation>horizontal</orientation>
@@ -362,8 +373,8 @@
 						<param name="button-onclick" value="Close" />
 						<param name="button-onup" value="61" />
 						<param name="button-ondown" value="9010" />
-						<param name="button-onleft" value="9000" />
-						<param name="button-onright" value="9000" />
+						<param name="button-onleft" value="11" />
+						<param name="button-onright" value="11" />
 					</include>
 				</control>
 			</control>

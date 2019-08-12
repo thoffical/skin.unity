@@ -399,6 +399,10 @@ msgctxt "#31142"
 msgid "Settings level"
 msgstr ""
 
+msgctxt "#31178"
+msgid "Stop video on back"
+msgstr ""
+
 msgctxt "#31179"
 msgid "Always open fullscreen music playback"
 msgstr ""

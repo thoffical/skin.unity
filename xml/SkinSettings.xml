@@ -170,6 +170,12 @@
 						<onclick>Skin.ToggleSetting(HideWindowedTrailer)</onclick>
 						<selected>!Skin.HasSetting(HideWindowedTrailer)</selected>
 					</control>
+					<control type="radiobutton" id="114">
+						<width>995</width>
+						<label>31178</label>
+						<onclick>Skin.ToggleSetting(StopVideoOnBack)</onclick>
+						<selected>Skin.HasSetting(StopVideoOnBack)</selected>
+					</control>
 					<control type="radiobutton" id="110">
 						<width>995</width>
 						<label>31179</label>

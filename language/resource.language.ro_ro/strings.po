@@ -1,24 +1,28 @@
 # Kodi Media Center language file
-# Addon Name: Confluence
-# Addon id: skin.confluence
-# Addon Provider: Jezz_X, Team Kodi
+# Addon Name: Unity
+# Addon id: skin.unity
+# Addon Provider: Eddage, Bumpaneer
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Main\n"
-"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"Project-Id-Version: KODI Skins\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
-"Language-Team: Romanian (http://www.transifex.com/projects/p/xbmc-main/language/ro/)\n"
+"Language-Team: Romanian (Romania) (http://www.transifex.com/projects/p/kodi-skins/language/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
+"Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 msgctxt "#31000"
 msgid "Change Your"
 msgstr "Modificare"
+
+msgctxt "#31001"
+msgid "Games"
+msgstr "Jocuri"
 
 msgctxt "#31003"
 msgid "Power Options"
@@ -43,6 +47,10 @@ msgstr "Ecran complet"
 msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Durata Totală"
+
+msgctxt "#31017"
+msgid "Unavailable"
+msgstr "Indisponibil"
 
 msgctxt "#31022"
 msgid "Music - Files"
@@ -76,6 +84,10 @@ msgctxt "#31029"
 msgid "Fanart"
 msgstr "Fanart"
 
+msgctxt "#31030"
+msgid "Reset Skin"
+msgstr "Restabilește costumul"
+
 msgctxt "#31031"
 msgid "Pic Thumbs"
 msgstr "Detalii"
@@ -87,6 +99,10 @@ msgstr "Ciclu imagini"
 msgctxt "#31033"
 msgid "Info"
 msgstr "Informații"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "Acțiuni"
 
 msgctxt "#31040"
 msgid "Now Playing"
@@ -107,6 +123,10 @@ msgstr "DERULARE ÎNAINTE"
 msgctxt "#31045"
 msgid "REWIND"
 msgstr "DERULARE ÎNAPOI"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "DERULARE"
 
 msgctxt "#31048"
 msgid "Visualisation Presets"
@@ -164,17 +184,9 @@ msgctxt "#31103"
 msgid "Show \"Paused\" in picture slide show"
 msgstr "Arată „În pauză” la prezentare diapozitive"
 
-msgctxt "#31104"
-msgid "Play Trailers in a window [COLOR=grey3](Video Information Dialogue Only)[/COLOR]"
-msgstr "Redare trailer într-o fereastră [COLOR=grey3](Doar în dialogul de informații video)[/COLOR]"
-
 msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Opțiuni diverse"
-
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Ascunde marcare citită din numele fișierelor video [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide Main Menu Buttons"
@@ -195,6 +207,10 @@ msgstr "Ascunde"
 msgctxt "#31112"
 msgid "Options"
 msgstr "Opțiuni"
+
+msgctxt "#31114"
+msgid "seconds"
+msgstr "secunde"
 
 msgctxt "#31116"
 msgid "Show Recently added Albums"
@@ -404,6 +420,14 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Descărcare subtitrare"
 
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "Afișează în 2D"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "Schimbare mod"
+
 msgctxt "#31362"
 msgid "Enabled"
 msgstr "Activat"
@@ -532,6 +556,10 @@ msgctxt "#31903"
 msgid "Weekend Forecast"
 msgstr "Previziune weekend"
 
+msgctxt "#31904"
+msgid "Daily Forecast"
+msgstr "Prognoză zilnică"
+
 msgctxt "#31905"
 msgid "Forecast"
 msgstr "Previziune"
@@ -548,6 +576,38 @@ msgctxt "#31910"
 msgid "Maps"
 msgstr "Hărți"
 
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "METEO"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "IMAGINI"
+
 msgctxt "#31952"
 msgid "TV"
 msgstr "TV"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "VIDEO"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "FILME"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "SERIALE"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "MUZICĂ"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "REDARE DISC"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "SISTEM"

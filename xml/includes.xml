@@ -1397,7 +1397,7 @@
 				<onup>610</onup>
 				<ondown>611</ondown>
 				<onclick>down</onclick>
-				<onclick>XBMC.PlayerControl(Stop)</onclick>
+				<onclick>PlayerControl(Stop)</onclick>
 			</control>
 			<control type="togglebutton" id="604">
 				<left>180</left>
@@ -1415,7 +1415,7 @@
 				<onup>610</onup>
 				<ondown>611</ondown>
 				<onback>50</onback>
-				<onclick>XBMC.PlayerControl(Play)</onclick>
+				<onclick>PlayerControl(Play)</onclick>
 				<enable>Player.PauseEnabled</enable>
 				<animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
 			</control>
@@ -1486,7 +1486,7 @@
 				<onup>610</onup>
 				<ondown>611</ondown>
 				<onback>50</onback>
-				<onclick>XBMC.PlayerControl(Previous)</onclick>
+				<onclick>PlayerControl(Previous)</onclick>
 			</control>
 			<control type="button" id="606">
 				<left>80</left>
@@ -1501,7 +1501,7 @@
 				<onup>610</onup>
 				<ondown>611</ondown>
 				<onback>50</onback>
-				<onclick>XBMC.PlayerControl(Rewind)</onclick>
+				<onclick>PlayerControl(Rewind)</onclick>
 				<visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
 			</control>
 			<control type="group">
@@ -1522,7 +1522,7 @@
 					<onup>610</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
-					<onclick>XBMC.PlayerControl(Play)</onclick>
+					<onclick>PlayerControl(Play)</onclick>
 				</control>
 				<control type="button" id="601">
 					<left>130</left>
@@ -1538,7 +1538,7 @@
 					<ondown>611</ondown>
 					<onback>50</onback>
 					<onclick>down</onclick>
-					<onclick>XBMC.PlayerControl(Stop)</onclick>
+					<onclick>PlayerControl(Stop)</onclick>
 				</control>
 				<control type="button" id="607">
 					<left>180</left>
@@ -1553,7 +1553,7 @@
 					<onup>610</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
-					<onclick>XBMC.PlayerControl(Forward)</onclick>
+					<onclick>PlayerControl(Forward)</onclick>
 					<visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
 				</control>
 				<control type="button" id="602">
@@ -1570,7 +1570,7 @@
 					<onup>610</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
-					<onclick>XBMC.PlayerControl(Next)</onclick>
+					<onclick>PlayerControl(Next)</onclick>
 				</control>
 			</control>
 			<control type="group">
@@ -1583,7 +1583,7 @@
 					<label></label>
 					<texturefocus></texturefocus>
 					<texturenofocus></texturenofocus>
-					<onclick>XBMC.PlayerControl(Repeat)</onclick>
+					<onclick>PlayerControl(Repeat)</onclick>
 					<onleft>602</onleft>
 					<onright>605</onright>
 					<onup>610</onup>
@@ -1655,7 +1655,7 @@
 					<usealttexture>Playlist.IsRandom</usealttexture>
 					<alttexturefocus colordiffuse="$INFO[Skin.String(color.500)]">OSDRandomOnNF.png</alttexturefocus>
 					<alttexturenofocus colordiffuse="$INFO[Skin.String(color.text)]">OSDRandomOnNF.png</alttexturenofocus>
-					<onclick>XBMC.PlayerControl(Random)</onclick>
+					<onclick>PlayerControl(Random)</onclick>
 					<onleft>604</onleft>
 					<onright>50</onright>
 					<onup>610</onup>

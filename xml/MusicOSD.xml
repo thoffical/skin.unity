@@ -160,7 +160,7 @@
 						<font></font>
 						<texturefocus></texturefocus>
 						<texturenofocus></texturenofocus>
-						<onclick>XBMC.PlayerControl(Repeat)</onclick>
+						<onclick>PlayerControl(Repeat)</onclick>
 						<onleft>605</onleft>
 						<onright>607</onright>
 						<onup>1000</onup>
@@ -237,7 +237,7 @@
 						<usealttexture>Playlist.IsRandom</usealttexture>
 						<alttexturefocus colordiffuse="$INFO[Skin.String(color.500)]">OSDRandomOnNF.png</alttexturefocus>
 						<alttexturenofocus colordiffuse="$INFO[Skin.String(color.text)]">OSDRandomOnNF.png</alttexturenofocus>
-						<onclick>XBMC.PlayerControl(Random)</onclick>
+						<onclick>PlayerControl(Random)</onclick>
 						<visible>!MusicPlayer.Content(LiveTV)</visible>
 						<onleft>606</onleft>
 						<onright>705</onright>
@@ -277,10 +277,10 @@
 					<alttexturefocus colordiffuse="$INFO[Skin.String(color.500)]">OSDLyricsNF.png</alttexturefocus>
 					<alttexturenofocus colordiffuse="$INFO[Skin.String(color.text)]">OSDLyricsNF.png</alttexturenofocus>
 					<onclick>Close</onclick>
-					<onclick>XBMC.RunScript($INFO[Skin.String(LyricScript_Path)])</onclick>
+					<onclick>RunScript($INFO[Skin.String(LyricScript_Path)])</onclick>
 					<altclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</altclick>
 					<altclick>Close</altclick>
-					<altclick>XBMC.RunScript($INFO[Skin.String(LyricScript_Path)])</altclick>
+					<altclick>RunScript($INFO[Skin.String(LyricScript_Path)])</altclick>
 					<usealttexture>String.IsEmpty(Skin.String(LyricScript_Path))</usealttexture>
 					<visible>!MusicPlayer.Content(LiveTV)</visible>
 				</control>

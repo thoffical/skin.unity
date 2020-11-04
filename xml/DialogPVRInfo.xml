@@ -237,46 +237,46 @@
 				<onright>9000</onright>
 				<onup>60</onup>
 				<ondown>49</ondown>
-				<!--browse button-->
-				<include content="AnimatedCircleButtonGroup">
-					<param name="button-id" value="4" />
-					<param name="button-width" value="180" />
-					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
-					<param name="button-texture" value="browsebutton" />
-					<param name="button-label" value="19003" />
-					<param name="button-onup" value="60" />
-					<param name="button-ondown" value="49" />
-					<param name="button-onleft" value="7" />
-					<param name="button-onright" value="5" />
-				</include>
 				<!--switch button-->
 				<include content="AnimatedCircleButtonGroup">
 					<param name="button-id" value="5" />
-					<param name="button-width" value="130" />
+					<param name="button-width" value="135" />
 					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
 					<param name="button-texture" value="refreshbutton" />
 					<param name="button-label" value="19165" />
 					<param name="button-onup" value="60" />
 					<param name="button-ondown" value="49" />
 					<param name="button-onleft" value="4" />
+					<param name="button-onright" value="10" />
+				</include>
+				<!--start button-->
+				<include content="AnimatedCircleButtonGroup">
+					<param name="button-id" value="10" />
+					<param name="button-width" value="205" />
+					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
+					<param name="button-texture" value="trailerbutton" />
+					<param name="button-label" value="19190" />
+					<param name="button-onup" value="60" />
+					<param name="button-ondown" value="49" />
+					<param name="button-onleft" value="5" />
 					<param name="button-onright" value="8" />
 				</include>
 				<!--play button-->
 				<include content="AnimatedCircleButtonGroup">
 					<param name="button-id" value="8" />
 					<param name="button-width" value="210" />
-					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
+					<param name="button-visible" value="Window.IsActive(PVRGuideInfo) | Window.IsActive(PVRRecordingInfo)" />
 					<param name="button-texture" value="playbutton" />
 					<param name="button-label" value="19687" />
 					<param name="button-onup" value="60" />
 					<param name="button-ondown" value="49" />
-					<param name="button-onleft" value="5" />
+					<param name="button-onleft" value="10" />
 					<param name="button-onright" value="6" />
 				</include>
 				<!--record button-->
 				<include content="AnimatedCircleButtonGroup">
 					<param name="button-id" value="6" />
-					<param name="button-width" value="130" />
+					<param name="button-width" value="140" />
 					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
 					<param name="button-texture" value="recordbutton" />
 					<param name="button-onup" value="60" />
@@ -287,25 +287,38 @@
 				<!--add timer button-->
 				<include content="AnimatedCircleButtonGroup">
 					<param name="button-id" value="9" />
-					<param name="button-width" value="130" />
+					<param name="button-width" value="170" />
 					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
 					<param name="button-texture" value="settingsbutton" />
 					<param name="button-label" value="19061" />
 					<param name="button-onup" value="60" />
 					<param name="button-ondown" value="49" />
 					<param name="button-onleft" value="6" />
-					<param name="button-onright" value="7" />
+					<param name="button-onright" value="11" />
 				</include>
-				<!--ok button-->
+				<!--reminder button-->
 				<include content="AnimatedCircleButtonGroup">
-					<param name="button-id" value="7" />
-					<param name="button-width" value="130" />
-					<param name="button-texture" value="yesbutton" />
-					<param name="button-label" value="186" />
+					<param name="button-id" value="11" />
+					<param name="button-width" value="195" />
+					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
+					<param name="button-texture" value="ratingbutton" />
+					<param name="button-label" value="826" />
 					<param name="button-onup" value="60" />
 					<param name="button-ondown" value="49" />
 					<param name="button-onleft" value="9" />
 					<param name="button-onright" value="4" />
+				</include>
+				<!--browse button-->
+				<include content="AnimatedCircleButtonGroup">
+					<param name="button-id" value="4" />
+					<param name="button-width" value="185" />
+					<param name="button-visible" value="Window.IsActive(PVRGuideInfo) | Window.IsActive(PVRRecordingInfo)" />
+					<param name="button-texture" value="browsebutton" />
+					<param name="button-label" value="19003" />
+					<param name="button-onup" value="60" />
+					<param name="button-ondown" value="49" />
+					<param name="button-onleft" value="11" />
+					<param name="button-onright" value="5" />
 				</include>
 			</control>
 		</control>

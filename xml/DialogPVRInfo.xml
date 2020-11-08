@@ -289,7 +289,7 @@
 					<param name="button-id" value="9" />
 					<param name="button-width" value="170" />
 					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
-					<param name="button-texture" value="settingsbutton" />
+					<param name="button-texture" value="timerbutton" />
 					<param name="button-label" value="19061" />
 					<param name="button-onup" value="60" />
 					<param name="button-ondown" value="49" />
@@ -301,7 +301,7 @@
 					<param name="button-id" value="11" />
 					<param name="button-width" value="195" />
 					<param name="button-visible" value="Window.IsActive(PVRGuideInfo)" />
-					<param name="button-texture" value="ratingbutton" />
+					<param name="button-texture" value="reminderbutton" />
 					<param name="button-label" value="826" />
 					<param name="button-onup" value="60" />
 					<param name="button-ondown" value="49" />

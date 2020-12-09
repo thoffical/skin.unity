@@ -106,8 +106,8 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
@@ -349,8 +349,8 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
@@ -466,8 +466,8 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
@@ -600,8 +600,8 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>

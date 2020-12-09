@@ -363,7 +363,7 @@
 					<include content="AnimatedCircleButtonGroup">
 						<param name="button-id" value="100" />
 						<param name="button-width" value="160" />
-						<param name="button-visible">Skin.HasSetting(ActivateTvTunes) + System.HasAddon(script.tvtunes) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)] + String.IsEmpty(Window(movieinformation).Property("TvTunes_HideVideoInfoButton"))</param>
+						<param name="button-visible">Skin.HasSetting(ActivateTvTunes) + System.AddonIsEnabled(script.tvtunes) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)] + String.IsEmpty(Window(movieinformation).Property("TvTunes_HideVideoInfoButton"))</param>
 						<param name="button-texture" value="tunebutton" />
 						<param name="button-colormain" value="white" />
 						<param name="button-coloralt" value="$INFO[Skin.String(color.900)]" />

@@ -172,8 +172,8 @@
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<!--Home Screen Widgets-->
 				<include>skinshortcuts-template-widget</include>
 			</control>
@@ -460,7 +460,7 @@
 					</animation>
 					<!--search-->
 					<control type="group">
-						<visible>System.HasAddon(script.globalsearch)</visible>
+						<visible>System.AddonIsEnabled(script.globalsearch)</visible>
 						<!--search background-->
 						<control type="image">
 							<left>60</left>
@@ -539,7 +539,7 @@
 								<width>4</width>
 								<height>45</height>
 								<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
-								<visible>!System.HasAddon(script.globalsearch)</visible>
+								<visible>!System.AddonIsEnabled(script.globalsearch)</visible>
 							</control>
 							<control type="group">
 								<visible>!VideoPlayer.Content(LiveTV)</visible>
@@ -791,8 +791,8 @@
 						<height>92</height>
 						<onleft>9000</onleft>
 						<onright>9000</onright>
-						<onup condition="System.HasAddon(script.globalsearch)">608</onup>
-						<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
+						<onup condition="System.AddonIsEnabled(script.globalsearch)">608</onup>
+						<onup condition="!System.AddonIsEnabled(script.globalsearch)">603</onup>
 						<ondown>9901</ondown>
 						<pagecontrol></pagecontrol>
 						<scrolltime>300</scrolltime>

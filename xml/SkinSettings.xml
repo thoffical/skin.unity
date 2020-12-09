@@ -202,14 +202,14 @@
 						<textoffsetx>5</textoffsetx>
 						<aligny>center</aligny>
 						<label>20343</label>
-						<visible>System.HasAddon(script.tvtunes)</visible>
+						<visible>System.AddonIsEnabled(script.tvtunes)</visible>
 					</control>
 					<control type="radiobutton" id="106">
 						<width>995</width>
 						<label>31126</label>
 						<onclick>Skin.ToggleSetting(ActivateTvTunes)</onclick>
 						<selected>Skin.HasSetting(ActivateTvTunes)</selected>
-						<visible>System.HasAddon(script.tvtunes)</visible>
+						<visible>System.AddonIsEnabled(script.tvtunes)</visible>
 					</control>
 					<control type="label" id="107">
 						<width>995</width>
@@ -324,14 +324,14 @@
 						<width>995</width>
 						<label>$ADDON[script.skinshortcuts 32035]</label>
 						<onclick>RunScript(script.skinshortcuts,type=manage&amp;nolabels=True&amp;group=mainmenu)</onclick>
-						<enable>System.HasAddon(script.skinshortcuts)</enable>
+						<enable>System.AddonIsEnabled(script.skinshortcuts)</enable>
 					</control>
 					<!--reset skin shortcuts menu-->
 					<control type="button" id="233">
 						<width>995</width>
 						<label>$ADDON[script.skinshortcuts 32037]</label>
 						<onclick>RunScript(script.skinshortcuts,type=resetall)</onclick>
-						<enable>System.HasAddon(script.skinshortcuts)</enable>
+						<enable>System.AddonIsEnabled(script.skinshortcuts)</enable>
 					</control>
 				</control>
 				<!--scrollbar-->
@@ -364,14 +364,14 @@
 						<textoffsetx>5</textoffsetx>
 						<aligny>center</aligny>
 						<label>2</label>
-						<visible>System.HasAddon(script.artistslideshow)</visible>
+						<visible>System.AddonIsEnabled(script.artistslideshow)</visible>
 					</control>
 					<control type="radiobutton" id="314">
 						<width>995</width>
 						<label>31130</label>
 						<onclick>Skin.ToggleSetting(DisableArtistSlideshow)</onclick>
 						<selected>!Skin.HasSetting(DisableArtistSlideshow)</selected>
-						<visible>System.HasAddon(script.artistslideshow)</visible>
+						<visible>System.AddonIsEnabled(script.artistslideshow)</visible>
 					</control>
 					<control type="label" id="300">
 						<width>995</width>
@@ -417,8 +417,9 @@
 						<width>995</width>
 						<label>31113</label>
 						<label2>$INFO[Skin.String(BackgroundSwitchDelay.label)]</label2>
+						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">RunScript(script.skin.helper.service,action=setskinsetting,setting=BackgroundSwitchDelay,header=$LOCALIZE[31113])</onclick>
+						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
 						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service)">RunScript(script.skin.helper.service,action=setskinsetting,setting=BackgroundSwitchDelay,header=$LOCALIZE[31113])</onclick>
 					</control>
 					<control type="label" id="310">
 						<width>995</width>
@@ -438,16 +439,18 @@
 					<control type="radiobutton" id="311">
 						<width>995</width>
 						<label>31109</label>
+						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">Skin.ToggleSetting(UseCustomBackground)</onclick>
+						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
 						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service)">Skin.ToggleSetting(UseCustomBackground)</onclick>
 						<selected>Skin.HasSetting(UseCustomBackground)</selected>
 					</control>
 					<control type="button" id="312">
 						<width>995</width>
 						<label>- $LOCALIZE[31110]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(CustomBackgroundPath.label)][/COLOR]</label2>
+						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">RunScript(script.skin.helper.service,action=selectimage,skinstring=CustomBackgroundPath,allowmulti=true,resourceaddon=resource.images.skinbackgrounds,skinhelperbackgrounds=false)</onclick>
+						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
 						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service)">RunScript(script.skin.helper.service,action=selectimage,skinstring=CustomBackgroundPath,allowmulti=true,resourceaddon=resource.images.skinbackgrounds,skinhelperbackgrounds=false)</onclick>
 						<enable>Skin.HasSetting(UseCustomBackground)</enable>
 					</control>
 				</control>

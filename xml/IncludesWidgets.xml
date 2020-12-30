@@ -111,7 +111,7 @@
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<itemlayout height="330" width="210">
 					<control type="image">
 						<left>0</left>
@@ -354,7 +354,7 @@
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<itemlayout height="246" width="246">
 					<control type="image">
 						<left>0</left>
@@ -471,7 +471,7 @@
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<focusposition>1</focusposition>
 				<movement>2</movement>
 				<itemlayout height="242" width="340">
@@ -605,7 +605,7 @@
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<itemlayout height="330" width="210">
 					<control type="image">
 						<left>0</left>

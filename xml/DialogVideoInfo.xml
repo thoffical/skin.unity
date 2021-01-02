@@ -409,28 +409,6 @@
 						<texture background="true">$INFO[Container(50).ListItem.Art(poster)]</texture>
 						<visible>String.IsEqual(ListItem.DBType,set)</visible>
 					</control>
-					<!--actor image
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>567</width>
-						<height>850</height>
-						<aspectratio aligny="top">keep</aspectratio>
-						<texture colordiffuse="$INFO[Skin.String(color.500)]">$INFO[Container(50).Listitem.Icon]</texture>
-						<visible>Control.IsVisible(50)</visible>
-						<visible>String.Contains(Container(50).ListItem.Icon,default)</visible>
-					</control>
-					<!--actor image
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>567</width>
-						<height>850</height>
-						<aspectratio aligny="top">keep</aspectratio>
-						<texture>$INFO[Container(50).Listitem.Icon]</texture>
-						<visible>Control.IsVisible(50)</visible>
-						<visible>!String.Contains(Container(50).ListItem.Icon,default)</visible>
-					</control> -->
 				</control>
 				<!--buttons shadow-->
 				<control type="image">

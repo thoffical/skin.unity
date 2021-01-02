@@ -106,12 +106,12 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<itemlayout height="330" width="210">
 					<control type="image">
 						<left>0</left>
@@ -349,12 +349,12 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<itemlayout height="246" width="246">
 					<control type="image">
 						<left>0</left>
@@ -466,12 +466,12 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<focusposition>1</focusposition>
 				<movement>2</movement>
 				<itemlayout height="242" width="340">
@@ -600,12 +600,12 @@
 				<onleft>$PARAM[list_id]</onleft>
 				<onright>$PARAM[list_id]</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
-				<orientation>Horizontal</orientation>
+				<orientation>horizontal</orientation>
 				<itemlayout height="330" width="210">
 					<control type="image">
 						<left>0</left>

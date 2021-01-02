@@ -1,3 +1,6 @@
+[B]30/12/2020 - 0.19.0 [/B]
+[CODED] Initial Matrix Release
+
 [B]02/11/2020 - 0.7.2 [/B]
 [UPDATED] Add additional supported aspect ratios
 [FIXED] Seek bar improvements

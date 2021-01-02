@@ -335,7 +335,8 @@
 						<item id="20">
 							<!--Custom-->
 							<label>20190</label>
-							<onclick condition="System.HasAddon(script.skin.helper.colorpicker)">ActivateWindow(1101)</onclick>
+							<onclick condition="System.AddonIsEnabled(script.skin.helper.colorpicker)">ActivateWindow(1101)</onclick>
+							<onclick condition="System.HasAddon(script.skin.helper.colorpicker) + !System.AddonIsEnabled(script.skin.helper.colorpicker)">EnableAddon(script.skin.helper.colorpicker)</onclick>
 							<onclick condition="!System.HasAddon(script.skin.helper.colorpicker)">InstallAddon(script.skin.helper.colorpicker)</onclick>
 							<thumb>colours/Custom.png</thumb>
 						</item>

@@ -172,8 +172,8 @@
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 				<onup>915</onup>
-				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
-				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
 				<!--Home Screen Widgets-->
 				<include>skinshortcuts-template-widget</include>
 			</control>
@@ -460,7 +460,7 @@
 					</animation>
 					<!--search-->
 					<control type="group">
-						<visible>System.HasAddon(script.globalsearch)</visible>
+						<visible>System.AddonIsEnabled(script.globalsearch)</visible>
 						<!--search background-->
 						<control type="image">
 							<left>60</left>
@@ -539,7 +539,7 @@
 								<width>4</width>
 								<height>45</height>
 								<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
-								<visible>!System.HasAddon(script.globalsearch)</visible>
+								<visible>!System.AddonIsEnabled(script.globalsearch)</visible>
 							</control>
 							<control type="group">
 								<visible>!VideoPlayer.Content(LiveTV)</visible>
@@ -557,7 +557,7 @@
 									<onright>602</onright>
 									<onup>9007</onup>
 									<ondown>9000</ondown>
-									<onclick>XBMC.PlayerControl(Previous)</onclick>
+									<onclick>PlayerControl(Previous)</onclick>
 								</control>
 								<control type="button" id="602">
 									<left>60</left>
@@ -571,7 +571,7 @@
 									<onright>603</onright>
 									<onup>9007</onup>
 									<ondown>9000</ondown>
-									<onclick>XBMC.PlayerControl(Rewind)</onclick>
+									<onclick>PlayerControl(Rewind)</onclick>
 								</control>
 								<control type="togglebutton" id="603">
 									<left>105</left>
@@ -588,7 +588,7 @@
 									<onright>604</onright>
 									<onup>9007</onup>
 									<ondown>9000</ondown>
-									<onclick>XBMC.PlayerControl(Play)</onclick>
+									<onclick>PlayerControl(Play)</onclick>
 								</control>
 								<control type="button" id="604">
 									<left>150</left>
@@ -603,7 +603,7 @@
 									<onup>9007</onup>
 									<ondown>9000</ondown>
 									<onclick>down</onclick>
-									<onclick>XBMC.PlayerControl(Stop)</onclick>
+									<onclick>PlayerControl(Stop)</onclick>
 								</control>
 								<control type="button" id="605">
 									<left>195</left>
@@ -617,7 +617,7 @@
 									<onright>606</onright>
 									<onup>9007</onup>
 									<ondown>9000</ondown>
-									<onclick>XBMC.PlayerControl(Forward)</onclick>
+									<onclick>PlayerControl(Forward)</onclick>
 								</control>
 								<control type="button" id="606">
 									<left>240</left>
@@ -631,7 +631,7 @@
 									<onright>607</onright>
 									<onup>9007</onup>
 									<ondown>9000</ondown>
-									<onclick>XBMC.PlayerControl(Next)</onclick>
+									<onclick>PlayerControl(Next)</onclick>
 								</control>
 							</control>
 							<control type="group" id="600">
@@ -679,7 +679,7 @@
 									<onup>9007</onup>
 									<ondown>9000</ondown>
 									<onclick>down</onclick>
-									<onclick>XBMC.PlayerControl(Stop)</onclick>
+									<onclick>PlayerControl(Stop)</onclick>
 								</control>
 								<control type="togglebutton" id="604">
 									<left>150</left>
@@ -696,7 +696,7 @@
 									<onright>606</onright>
 									<onup>9007</onup>
 									<ondown>9000</ondown>
-									<onclick>XBMC.PlayerControl(Play)</onclick>
+									<onclick>PlayerControl(Play)</onclick>
 									<enable>Player.PauseEnabled</enable>
 									<animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
 								</control>
@@ -791,8 +791,8 @@
 						<height>92</height>
 						<onleft>9000</onleft>
 						<onright>9000</onright>
-						<onup condition="System.HasAddon(script.globalsearch)">608</onup>
-						<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
+						<onup condition="System.AddonIsEnabled(script.globalsearch)">608</onup>
+						<onup condition="!System.AddonIsEnabled(script.globalsearch)">603</onup>
 						<ondown>9901</ondown>
 						<pagecontrol></pagecontrol>
 						<scrolltime>300</scrolltime>

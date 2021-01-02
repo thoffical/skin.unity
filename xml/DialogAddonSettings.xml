@@ -14,7 +14,7 @@
 				<param name="dialog-width" value="1210" />
 				<param name="glow-width" value="1290" />
 				<param name="sidebar-visible" value="true" />
-				<param name="sidebar-width" value="280" />
+				<param name="sidebar-width" value="340" />
 				<param name="buttonbar-visible" value="true" />
 				<param name="buttonbar-height" value="70" />
 			</include>
@@ -49,18 +49,62 @@
 					<textcolor>white</textcolor>
 					<label></label>
 				</control>
+				<!--left buttons-->
 				<control type="grouplist" id="3">
 					<description>button area</description>
 					<left>10</left>
 					<top>120</top>
 					<bottom>120</bottom>
-					<width>330</width>
+					<width>350</width>
 					<itemgap>5</itemgap>
 					<pagecontrol>61</pagecontrol>
 					<onleft>61</onleft>
 					<onright>5</onright>
 					<onup>3</onup>
+					<ondown>20</ondown>
+				</control>
+				<!--settings level-->
+				<control type="button" id="20">
+					<left>10</left>
+					<top>940</top>
+					<height>60</height>
+					<width>320</width>
+					<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
+					<textcolor>white</textcolor>
+					<focusedcolor>$INFO[Skin.String(color.900)]</focusedcolor>
+					<align>right</align>
+					<include>ButtonCommonValues</include>
+					<onleft>5</onleft>
+					<onright>5</onright>
+					<onup>3</onup>
 					<ondown>3</ondown>
+					<onclick>SettingsLevelChange</onclick>
+				</control>
+				<!--settings level label (no focus)-->
+				<control type="label">
+					<left>25</left>
+					<top>940</top>
+					<height>60</height>
+					<width>305</width>
+					<label>31142</label>
+					<font>button</font>
+					<textcolor>white</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<visible>!Control.HasFocus(20)</visible>
+				</control>
+				<!--settings level label (focus)-->
+				<control type="label">
+					<left>25</left>
+					<top>940</top>
+					<height>60</height>
+					<width>305</width>
+					<label>31142</label>
+					<font>button</font>
+					<textcolor>$INFO[Skin.String(color.900)]</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<visible>Control.HasFocus(20)</visible>
 				</control>
 				<!--scrollbar-->
 				<control type="scrollbar" id="61">
@@ -72,10 +116,10 @@
 				</control>
 				<control type="grouplist" id="5">
 					<description>control area</description>
-					<left>290</left>
+					<left>350</left>
 					<top>120</top>
 					<bottom>120</bottom>
-					<width>910</width>
+					<width>850</width>
 					<itemgap>5</itemgap>
 					<pagecontrol>60</pagecontrol>
 					<onup>5</onup>
@@ -110,7 +154,7 @@
 				</control>
 				<!--category buttons-->
 				<control type="button" id="10">
-					<width>260</width>
+					<width>320</width>
 					<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
 					<textcolor>white</textcolor>
 					<focusedcolor>$INFO[Skin.String(color.900)]</focusedcolor>

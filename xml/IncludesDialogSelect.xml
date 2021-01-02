@@ -310,6 +310,16 @@
 						<param name="button-onup" value="3" />
 						<param name="button-ondown" value="3" />
 						<param name="button-onleft" value="7" />
+						<param name="button-onright" value="8" />
+					</include>
+					<!--browse button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="8" />
+						<param name="button-width" value="140" />
+						<param name="button-texture" value="browsebutton" />
+						<param name="button-onup" value="3" />
+						<param name="button-ondown" value="3" />
+						<param name="button-onleft" value="5" />
 						<param name="button-onright" value="7" />
 					</include>
 					<!--no button-->
@@ -319,7 +329,7 @@
 						<param name="button-texture" value="nobutton" />
 						<param name="button-onup" value="3" />
 						<param name="button-ondown" value="3" />
-						<param name="button-onleft" value="5" />
+						<param name="button-onleft" value="8" />
 						<param name="button-onright" value="5" />
 					</include>
 				</control>

@@ -14,9 +14,9 @@
 			<height>160</height>
 			<centertop>80</centertop>
 			<visible>!Window.IsActive(FileBrowser) + !Window.IsActive(ShutdownMenu)</visible>
-			<animation effect="slide" start="0,-200" end="0,0" time="100" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,-200" end="0,0" time="500" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,-200" time="100" tween="quadratic" easing="out">WindowClose</animation>
-			<animation effect="slide" start="0,-200" end="0,0" time="100" tween="quadratic" easing="out">Visible</animation>
+			<animation effect="slide" start="0,-200" end="0,0" time="500" tween="quadratic" easing="out">Visible</animation>
 			<animation effect="slide" start="0,0" end="0,-200" time="100" tween="quadratic" easing="out">Hidden</animation>
 			<!--title bars and backgrounds-->
 			<include content="DynamicDialogBackground">

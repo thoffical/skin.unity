@@ -2,13 +2,6 @@
 <window>
 	<defaultcontrol>11</defaultcontrol>
 	<controls>
-		<control type="image">
-			<width>100%</width>
-			<height>100%</height>
-			<texture>black-back.png</texture>
-			<animation effect="fade" time="300">WindowOpen</animation>
-			<animation effect="fade" time="150">WindowClose</animation>
-		</control>
 		<!--all content-->
 		<control type="group">
 			<height>160</height>

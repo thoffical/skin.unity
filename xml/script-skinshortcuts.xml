@@ -175,22 +175,38 @@
 					<onright>31</onright>
 					<onup>1000</onup>
 					<ondown>10</ondown>
+					<!--enable/disable item-->
+					<control type="radiobutton" id="313">
+						<width>995</width>
+						<selected>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</selected>
+						<label>$LOCALIZE[24021]</label>
+					</control>
 					<!--change shortcut-->
 					<control type="button" id="401">
 						<width>995</width>
 						<label>$ADDON[script.skinshortcuts 32048]</label>
+						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
 					</control>
 					<!--change label-->
 					<control type="button" id="305">
 						<width>995</width>
 						<label>$ADDON[script.skinshortcuts 32025]</label>
 						<label2>$INFO[Container(211).ListItem.Label]</label2>
+						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
 					</control>
 					<!--change action-->
 					<control type="button" id="307">
 						<width>995</width>
 						<label>$ADDON[script.skinshortcuts 32027]</label>
 						<label2>$INFO[Container(211).ListItem.Property(displaypath)]</label2>
+						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
+					</control>
+					<!--background-->
+					<control type="button" id="310">
+						<width>995</width>
+						<label>$ADDON[script.skinshortcuts 32045]</label>
+						<label2>$INFO[Container(211).ListItem.Property(background)]</label2>
+						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
 					</control>
 					<!--change widget-->
 					<control type="button" id="312">
@@ -198,18 +214,14 @@
 						<label>$ADDON[script.skinshortcuts 32044]</label>
 						<label2>$INFO[Container(211).ListItem.Property(widgetName)]</label2>
 						<visible>String.IsEqual(Window.Property(groupname), mainmenu)</visible>
+						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
 					</control>
 					<!--edit sub-menu-->
 					<control type="button" id="405">
 						<width>995</width>
 						<label>$ADDON[script.skinshortcuts 32072]</label>
 						<visible>String.IsEqual(Window.Property("groupname"),mainmenu)</visible>
-					</control>
-					<!--enable/disable item-->
-					<control type="radiobutton" id="313">
-						<width>995</width>
-						<selected>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</selected>
-						<label>$LOCALIZE[24021]</label>
+						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
 					</control>
 				</control>
 				<!--bottom buttons-->

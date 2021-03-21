@@ -423,38 +423,6 @@
 						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
 						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
 					</control>
-					<control type="label" id="310">
-						<width>995</width>
-						<height>60</height>
-						<font>button.bold</font>
-						<textcolor>$INFO[Skin.String(color.500)]</textcolor>
-						<textoffsetx>5</textoffsetx>
-						<aligny>center</aligny>
-						<label>31102</label>
-					</control>
-					<control type="radiobutton" id="315">
-						<width>995</width>
-						<label>$LOCALIZE[13319]</label>
-						<onclick>Skin.ToggleSetting(RandomizeBackground)</onclick>
-						<selected>Skin.HasSetting(RandomizeBackground)</selected>
-					</control>
-					<control type="radiobutton" id="311">
-						<width>995</width>
-						<label>31109</label>
-						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">Skin.ToggleSetting(UseCustomBackground)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
-						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<selected>Skin.HasSetting(UseCustomBackground)</selected>
-					</control>
-					<control type="button" id="312">
-						<width>995</width>
-						<label>- $LOCALIZE[31110]</label>
-						<label2>[COLOR=selected]$INFO[Skin.String(CustomBackgroundPath.label)][/COLOR]</label2>
-						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">RunScript(script.skin.helper.service,action=selectimage,skinstring=CustomBackgroundPath,allowmulti=true,resourceaddon=resource.images.skinbackgrounds,skinhelperbackgrounds=false)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
-						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<enable>Skin.HasSetting(UseCustomBackground)</enable>
-					</control>
 				</control>
 				<!--scrollbar-->
 				<control type="scrollbar" id="60">

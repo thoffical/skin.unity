@@ -377,8 +377,8 @@
 		<param name="dialog-centertop" default="50%" />
 		<param name="dialog-width" default="100%" />
 		<param name="dialog-height" default="100%" />
-		<param name="glow-width" default="105%" />
-		<param name="glow-height" default="105%" />
+		<param name="glow-width" default="2000" />
+		<param name="glow-height" default="1160" />
 		<param name="title-height" default="110" />
 		<param name="subtitle-visible" default="false" />
 		<param name="subtitle-height" default="0" />

@@ -19,11 +19,13 @@
 			<centertop>50%</centertop>
 			<width>1390</width>
 			<height>783</height>
-			<visible>![Window.IsActive(PVRChannelManager) | Window.IsActive(PVRGroupManager)]</visible>
+			<visible>![Window.IsActive(PVRChannelManager) | Window.IsActive(PVRGroupManager) | Window.IsActive(script-skinshortcuts.xml)]</visible>
 			<animation effect="slide" start="0,1512" end="0,0" time="400" tween="quadratic" easing="out" condition="!Window.Previous(Settings.xml)">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,1512" time="400" tween="quadratic" easing="out" condition="!Window.Next(Settings.xml)">WindowClose</animation>
 			<animation effect="slide" start="2015,0" end="0,0" time="400" tween="quadratic" easing="out" condition="Window.Previous(Settings.xml)">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="2015,0" time="400" tween="quadratic" easing="out" condition="Window.Next(Settings.xml)">WindowClose</animation>
+			<animation effect="slide" start="2015,0" end="0,0" time="400" tween="quadratic" easing="out">Visible</animation>
+			<animation effect="slide" start="0,0" end="-2015,0" time="400" tween="quadratic" easing="out">Hidden</animation>
 			<!--title bars and backgrounds-->
 			<include content="DynamicDialogBackground">
 				<param name="dialog-width" value="1390" />

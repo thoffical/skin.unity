@@ -19,11 +19,13 @@
 			<centertop>50%</centertop>
 			<width>1390</width>
 			<height>783</height>
-			<visible>![Window.IsActive(PVRChannelManager) | Window.IsActive(PVRGroupManager)]</visible>
+			<visible>![Window.IsActive(PVRChannelManager) | Window.IsActive(PVRGroupManager) | Window.IsActive(script-skinshortcuts.xml)]</visible>
 			<animation effect="slide" start="0,1512" end="0,0" time="400" tween="quadratic" easing="out" condition="!Window.Previous(Settings.xml)">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,1512" time="400" tween="quadratic" easing="out" condition="!Window.Next(Settings.xml)">WindowClose</animation>
 			<animation effect="slide" start="2015,0" end="0,0" time="400" tween="quadratic" easing="out" condition="Window.Previous(Settings.xml)">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="2015,0" time="400" tween="quadratic" easing="out" condition="Window.Next(Settings.xml)">WindowClose</animation>
+			<animation effect="slide" start="2015,0" end="0,0" time="400" tween="quadratic" easing="out">Visible</animation>
+			<animation effect="slide" start="0,0" end="-2015,0" time="400" tween="quadratic" easing="out">Hidden</animation>
 			<!--title bars and backgrounds-->
 			<include content="DynamicDialogBackground">
 				<param name="dialog-width" value="1390" />
@@ -420,38 +422,6 @@
 						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">RunScript(script.skin.helper.service,action=setskinsetting,setting=BackgroundSwitchDelay,header=$LOCALIZE[31113])</onclick>
 						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
 						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-					</control>
-					<control type="label" id="310">
-						<width>995</width>
-						<height>60</height>
-						<font>button.bold</font>
-						<textcolor>$INFO[Skin.String(color.500)]</textcolor>
-						<textoffsetx>5</textoffsetx>
-						<aligny>center</aligny>
-						<label>31102</label>
-					</control>
-					<control type="radiobutton" id="315">
-						<width>995</width>
-						<label>$LOCALIZE[13319]</label>
-						<onclick>Skin.ToggleSetting(RandomizeBackground)</onclick>
-						<selected>Skin.HasSetting(RandomizeBackground)</selected>
-					</control>
-					<control type="radiobutton" id="311">
-						<width>995</width>
-						<label>31109</label>
-						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">Skin.ToggleSetting(UseCustomBackground)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
-						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<selected>Skin.HasSetting(UseCustomBackground)</selected>
-					</control>
-					<control type="button" id="312">
-						<width>995</width>
-						<label>- $LOCALIZE[31110]</label>
-						<label2>[COLOR=selected]$INFO[Skin.String(CustomBackgroundPath.label)][/COLOR]</label2>
-						<onclick condition="System.AddonIsEnabled(script.skin.helper.service)">RunScript(script.skin.helper.service,action=selectimage,skinstring=CustomBackgroundPath,allowmulti=true,resourceaddon=resource.images.skinbackgrounds,skinhelperbackgrounds=false)</onclick>
-						<onclick condition="System.HasAddon(script.skin.helper.service) + !System.AddonIsEnabled(script.skin.helper.service)">EnableAddon(script.skin.helper.service)</onclick>
-						<onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-						<enable>Skin.HasSetting(UseCustomBackground)</enable>
 					</control>
 				</control>
 				<!--scrollbar-->

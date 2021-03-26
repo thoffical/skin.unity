@@ -14,9 +14,13 @@
 		<value condition="!Skin.HasSetting(HideBackGroundFanart) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.Fanart))">$INFO[Window(Home).Property(SkinHelper.ListItem.Art.Fanart)]</value>
 		<value condition="!String.IsEmpty(Container(9000).ListItem.Property(background))">$INFO[Container(9000).ListItem.Property(background)]</value>
 		<value condition="!Window.IsActive(Home) + !String.IsEmpty(Skin.String(SkinShortcut.BackgroundPath))">$INFO[Skin.String(SkinShortcut.BackgroundPath)]</value>
+		<value condition="Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)">$INFO[Skin.String(CustomBackgroundPath)]</value>
 		<!-- global background -->
 		<value>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</value>
 	</variable>
+	<include name="RandomizeImages">
+		<randomize>true</randomize>
+	</include>
 	<include name="fanartSpeed5">
 		<timeperimage>5000</timeperimage>
 	</include>
@@ -73,6 +77,7 @@
 			<fadetime>450</fadetime>
 			<loop>yes</loop>
 			<include>fanartSpeed</include>
+			<include condition="Skin.HasSetting(RandomizeBackground)">RandomizeImages</include>
 			<visible>![Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)] | [Window.IsVisible(MovieInformation) + !Skin.HasSetting(HideWindowedTrailer)] | Window.IsActive(TVChannels)</visible>
 		</control>
 		<control type="visualisation">
@@ -143,6 +148,7 @@
 					<fadetime>450</fadetime>
 					<loop>yes</loop>
 					<include>fanartSpeed</include>
+					<include condition="Skin.HasSetting(RandomizeBackground)">RandomizeImages</include>
 				</control>
 				<control type="image">
 					<left>0</left>

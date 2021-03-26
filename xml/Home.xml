@@ -31,7 +31,7 @@
 				</control>
 			</control>
 		</control>
-		<include>MaskedBackground</include>
+		<include condition="Skin.HasSetting(UseMaskedBackground)">MaskedBackground</include>
 		<control type="group">
 			<width>1920</width>
 			<centerleft>50%</centerleft>

@@ -189,7 +189,7 @@
 				<left>5</left>
 				<top>-5r</top>
 				<width>1800</width>
-				<height>7</height>
+				<height>11</height>
 				<onup>501</onup>
 				<ondown>9000</ondown>
 				<showonepage>false</showonepage>
@@ -374,7 +374,7 @@
 					<left>5</left>
 					<top>285</top>
 					<width>1800</width>
-					<height>7</height>
+					<height>11</height>
 					<onup>508</onup>
 					<ondown>9000</ondown>
 					<showonepage>false</showonepage>
@@ -1138,7 +1138,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="604">
-				<left>1014</left>
+				<left>1012</left>
 				<bottom>10</bottom>
 				<onleft>504</onleft>
 				<onright>2</onright>
@@ -1612,7 +1612,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="603">
-				<left>1334</left>
+				<left>1332</left>
 				<bottom>10</bottom>
 				<onleft>503</onleft>
 				<onright>2</onright>
@@ -2309,7 +2309,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="615">
-				<left>799</left>
+				<left>797</left>
 				<bottom>10</bottom>
 				<onleft>515</onleft>
 				<onright>2</onright>

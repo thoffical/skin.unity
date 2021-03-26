@@ -107,7 +107,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="60">
-				<left>1014</left>
+				<left>1012</left>
 				<bottom>10</bottom>
 				<onleft>506</onleft>
 				<onright>2</onright>
@@ -472,7 +472,7 @@
 					<left>5</left>
 					<top>285</top>
 					<width>1796</width>
-					<height>7</height>
+					<height>11</height>
 					<onup>509</onup>
 					<ondown>9000</ondown>
 					<showonepage>false</showonepage>
@@ -789,7 +789,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="60">
-				<left>1014</left>
+				<left>1012</left>
 				<bottom>10</bottom>
 				<onleft>504</onleft>
 				<onright>2</onright>
@@ -1010,7 +1010,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="60">
-				<left>1014</left>
+				<left>1012</left>
 				<bottom>10</bottom>
 				<onleft>512</onleft>
 				<onright>2</onright>
@@ -1242,7 +1242,7 @@
 			</control>
 			<!--scrollbar-->
 			<control type="scrollbar" id="60">
-				<left>1014</left>
+				<left>1012</left>
 				<bottom>10</bottom>
 				<onleft>513</onleft>
 				<onright>2</onright>

@@ -290,7 +290,7 @@ msgstr "Play Trailers in a window (Video Information Dialogue Only)"
 
 msgctxt "#31105"
 msgid "Mask background to hide submenu under transparent main menu"
-msgstr ""
+msgstr "Mask background to hide submenu under transparent main menu"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -350,11 +350,11 @@ msgstr "Hide Background Fanart"
 
 msgctxt "#31120"
 msgid "Single Image"
-msgstr ""
+msgstr "Single Image"
 
 msgctxt "#31121"
 msgid "Multi-Image"
-msgstr ""
+msgstr "Multi-Image"
 
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
@@ -426,7 +426,7 @@ msgstr "Shortcuts"
 
 msgctxt "#31201"
 msgid "Experimental"
-msgstr ""
+msgstr "Experimental"
 
 msgctxt "#31203"
 msgid "Choose Your Song"

@@ -80,6 +80,10 @@ msgctxt "#31015"
 msgid "Video process information"
 msgstr "Video process information"
 
+msgctxt "#31016"
+msgid "Use Landscape Artwork"
+msgstr "Use Landscape Artwork"
+
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Unavailable"

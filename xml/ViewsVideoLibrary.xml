@@ -932,7 +932,6 @@
 				<control type="group">
 					<left>30</left>
 					<top>328r</top>
-					<visible>Container.Content(Movies)</visible>
 					<include>media.flags.small</include>
 					<animation effect="zoom" start="100" end="80" time="0" condition="true">Conditional</animation>
 				</control>
@@ -1265,7 +1264,6 @@
 					<left>10</left>
 					<top>640</top>
 					<include>media.flags.small</include>
-					<visible>!ListItem.IsParentFolder + [Container.Content(Movies) | Container.Content(Episodes)]</visible>
 					<animation effect="zoom" start="100" end="96" center="10,600" time="0" condition="true">Conditional</animation>
 				</control>
 			</control>
@@ -1961,7 +1959,6 @@
 					<control type="group">
 						<left>485</left>
 						<top>650</top>
-						<visible>Container.Content(Movies)</visible>
 						<include>media.flags.small</include>
 						<animation effect="zoom" start="100" end="84" center="485,600" time="0" condition="true">Conditional</animation>
 					</control>
@@ -2316,7 +2313,6 @@
 					<left>10</left>
 					<top>650</top>
 					<include>media.flags.small</include>
-					<visible>!ListItem.IsParentFolder + [Container.Content(Movies) | Container.Content(Episodes)]</visible>
 					<animation effect="zoom" start="100" end="90" center="10,600" time="0" condition="true">Conditional</animation>
 				</control>
 			</control>

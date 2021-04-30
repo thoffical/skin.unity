@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Mongolian (Mongolia) (http://www.transifex.com/projects/p/kodi-skins/language/mn_MN/)\n"
-"Language: mn_MN\n"
+"PO-Revision-Date: 2021-04-30 11:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Mongolian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/mn_mn/>\n"
+"Language: mn_mn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6\n"
 
 msgctxt "#31000"
 msgid "Change Your"
@@ -91,11 +92,11 @@ msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
-msgstr ""
+msgstr "Тоглуулж байна"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr ""
+msgstr "Хуудас"
 
 msgctxt "#31025"
 msgid "Items"
@@ -131,7 +132,7 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Info"
-msgstr ""
+msgstr "мэдээлэл"
 
 msgctxt "#31034"
 msgid "Media Info 2"
@@ -157,23 +158,23 @@ msgstr ""
 # empty string with id 31041
 msgctxt "#31042"
 msgid "PLAYING"
-msgstr ""
+msgstr "ТОГЛУУЛЖ БАЙНА"
 
 msgctxt "#31043"
 msgid "PAUSED"
-msgstr ""
+msgstr "ТҮР ЗОГСООСОН"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
-msgstr ""
+msgstr "УРАГШ ГҮЙЛГЭХ"
 
 msgctxt "#31045"
 msgid "REWIND"
-msgstr ""
+msgstr "БУЦААХ"
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr ""
+msgstr "ХАЙХ"
 
 # empty string with id 31047
 msgctxt "#31048"
@@ -186,11 +187,11 @@ msgstr ""
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr ""
+msgstr "Өсөхөөр эрэмбэлэх"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr ""
+msgstr "Уруудахаар эрэмбэлэх"
 
 # empty strings from id 31052 to 31054
 msgctxt "#31055"
@@ -211,7 +212,7 @@ msgstr ""
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr ""
+msgstr "Одоогийн тоглох жагсаалт"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
@@ -321,11 +322,11 @@ msgstr ""
 
 msgctxt "#31111"
 msgid "Hide"
-msgstr ""
+msgstr "Нуух"
 
 msgctxt "#31112"
 msgid "Options"
-msgstr ""
+msgstr "Тохиргоонууд"
 
 msgctxt "#31113"
 msgid "Multi-Image Background Timer:"
@@ -382,7 +383,7 @@ msgstr ""
 
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr ""
+msgstr "Дууны үгс"
 
 msgctxt "#31129"
 msgid "Hide Fanart in full screen visualisation"
@@ -452,7 +453,7 @@ msgstr ""
 
 msgctxt "#31206"
 msgid "Found"
-msgstr ""
+msgstr "Оллоо"
 
 msgctxt "#31207"
 msgid "Find More Items"
@@ -601,7 +602,7 @@ msgstr ""
 
 msgctxt "#31362"
 msgid "Enabled"
-msgstr ""
+msgstr "Идэвхижүүлэх"
 
 # empty strings from id 31363 to 31389
 msgctxt "#31390"

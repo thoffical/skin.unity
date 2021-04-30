@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Maltese (Malta) (http://www.transifex.com/projects/p/kodi-skins/language/mt_MT/)\n"
-"Language: mt_MT\n"
+"PO-Revision-Date: 2021-04-30 11:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Maltese <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/mt_mt/>\n"
+"Language: mt_mt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3;\n"
+"X-Generator: Weblate 4.6\n"
 
 msgctxt "#31000"
 msgid "Change Your"
@@ -34,7 +35,7 @@ msgstr ""
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr ""
+msgstr "Qed jaħdem..."
 
 msgctxt "#31005"
 msgid "Hide Information"
@@ -91,15 +92,15 @@ msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
-msgstr ""
+msgstr "Qed jindaqq"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr ""
+msgstr "Paġna"
 
 msgctxt "#31025"
 msgid "Items"
-msgstr ""
+msgstr "Affarijiet"
 
 msgctxt "#31026"
 msgid "Misc Options"
@@ -107,7 +108,7 @@ msgstr ""
 
 msgctxt "#31027"
 msgid "Location"
-msgstr ""
+msgstr "Post"
 
 msgctxt "#31028"
 msgid "Poster Wrap"
@@ -115,7 +116,7 @@ msgstr ""
 
 msgctxt "#31029"
 msgid "Fanart"
-msgstr ""
+msgstr "Fanart"
 
 msgctxt "#31030"
 msgid "Reset Skin"
@@ -131,7 +132,7 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 msgctxt "#31034"
 msgid "Media Info 2"
@@ -148,7 +149,7 @@ msgstr ""
 # empty strings from id 31037 to 31038
 msgctxt "#31039"
 msgid "Actions"
-msgstr ""
+msgstr "Azzjonijiet"
 
 msgctxt "#31040"
 msgid "Now Playing"
@@ -157,23 +158,23 @@ msgstr ""
 # empty string with id 31041
 msgctxt "#31042"
 msgid "PLAYING"
-msgstr ""
+msgstr "IDOQQ"
 
 msgctxt "#31043"
 msgid "PAUSED"
-msgstr ""
+msgstr "IPPAWŻAT"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
-msgstr ""
+msgstr "GĦAĠĠEL QUDDIEM"
 
 msgctxt "#31045"
 msgid "REWIND"
-msgstr ""
+msgstr "B'LURA"
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr ""
+msgstr "IFITTEX"
 
 # empty string with id 31047
 msgctxt "#31048"
@@ -186,32 +187,32 @@ msgstr ""
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr ""
+msgstr "Qassam: Jikbru"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr ""
+msgstr "Qassam: Jiċkienu"
 
 # empty strings from id 31052 to 31054
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr ""
+msgstr "Iftaħ il-playlist"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr ""
+msgstr "Żomm il-playlist"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr ""
+msgstr "Għalaq il-playlist"
 
 msgctxt "#31058"
 msgid "System music files"
-msgstr ""
+msgstr "Fajls tal-mużika tas-sistema"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr ""
+msgstr "Playlist kurrenti"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
@@ -263,7 +264,7 @@ msgstr ""
 
 msgctxt "#31072"
 msgid "Skin"
-msgstr "Qoxra:"
+msgstr "Dehra"
 
 msgctxt "#31073"
 msgid "Debug options"
@@ -284,7 +285,7 @@ msgstr ""
 
 msgctxt "#31102"
 msgid "Background"
-msgstr ""
+msgstr "Wara l-kwinti"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slide show"
@@ -301,7 +302,7 @@ msgstr ""
 # empty string with id 31105
 msgctxt "#31106"
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "Għażliet varji"
 
 msgctxt "#31107"
 msgid "Hide Flagging read from video filenames (Blu-ray, HD-DVD)"
@@ -317,15 +318,15 @@ msgstr ""
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr ""
+msgstr "Path tal-isfond:"
 
 msgctxt "#31111"
 msgid "Hide"
-msgstr ""
+msgstr "Aħbi"
 
 msgctxt "#31112"
 msgid "Options"
-msgstr ""
+msgstr "Għażliet"
 
 msgctxt "#31113"
 msgid "Multi-Image Background Timer:"
@@ -382,7 +383,7 @@ msgstr ""
 
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr ""
+msgstr "Liriċi"
 
 msgctxt "#31129"
 msgid "Hide Fanart in full screen visualisation"
@@ -413,7 +414,7 @@ msgstr ""
 # empty strings from id 31137 to 31139
 msgctxt "#31140"
 msgid "Music OSD"
-msgstr ""
+msgstr "OSD tal-Mużika"
 
 msgctxt "#31141"
 msgid "Video OSD"
@@ -421,7 +422,7 @@ msgstr ""
 
 msgctxt "#31142"
 msgid "Settings level"
-msgstr ""
+msgstr "Livell ta' settings"
 
 # empty strings from id 31143 to 31177
 msgctxt "#31178"
@@ -434,7 +435,7 @@ msgstr ""
 
 msgctxt "#31200"
 msgid "Shortcuts"
-msgstr "Shortcuts"
+msgstr "Xortkats"
 
 msgctxt "#31201"
 msgid "Experimental"
@@ -452,7 +453,7 @@ msgstr ""
 
 msgctxt "#31206"
 msgid "Found"
-msgstr ""
+msgstr "Misjub"
 
 msgctxt "#31207"
 msgid "Find More Items"
@@ -479,7 +480,7 @@ msgstr ""
 # empty string with id 31302
 msgctxt "#31303"
 msgid "Data provider"
-msgstr ""
+msgstr "Fornitur ta' informazzjoni"
 
 # empty strings from id 31304 to 31306
 msgctxt "#31307"
@@ -534,7 +535,7 @@ msgstr ""
 
 msgctxt "#31322"
 msgid "Aired"
-msgstr ""
+msgstr "Intwera"
 
 # empty strings from id 31323 to 31324
 msgctxt "#31325"
@@ -543,11 +544,11 @@ msgstr ""
 
 msgctxt "#31326"
 msgid "Created"
-msgstr ""
+msgstr "Maħluq"
 
 msgctxt "#31327"
 msgid "Resolution"
-msgstr "Resolution:"
+msgstr "Riżoluzzjoni"
 
 msgctxt "#31328"
 msgid "Recently Added"
@@ -555,7 +556,7 @@ msgstr ""
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
-msgstr ""
+msgstr "[B]Arloġġ issetjat![/B] [COLOR=grey2] - Sistema se tintefa' waħedha f'[/COLOR]"
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]Movie trailer"
@@ -568,11 +569,11 @@ msgstr ""
 # empty strings from id 31332 to 31350
 msgctxt "#31351"
 msgid "Pause"
-msgstr ""
+msgstr "Ippawża"
 
 msgctxt "#31352"
 msgid "Stop"
-msgstr ""
+msgstr "Waqqaf"
 
 msgctxt "#31353"
 msgid "Fast Forward"
@@ -580,11 +581,11 @@ msgstr ""
 
 msgctxt "#31354"
 msgid "Rewind"
-msgstr ""
+msgstr "Lura"
 
 msgctxt "#31355"
 msgid "Movie menu"
-msgstr ""
+msgstr "Menu tal-film"
 
 msgctxt "#31356"
 msgid "Download Subtitles"
@@ -593,11 +594,11 @@ msgstr ""
 # empty strings from id 31357 to 31359
 msgctxt "#31360"
 msgid "Watch as 2D"
-msgstr ""
+msgstr "Ara bħala 2D"
 
 msgctxt "#31361"
 msgid "Change mode"
-msgstr ""
+msgstr "Ibdel il-modalita'"
 
 msgctxt "#31362"
 msgid "Enabled"
@@ -613,7 +614,7 @@ msgstr ""
 
 msgctxt "#31392"
 msgid "Arial based"
-msgstr ""
+msgstr "Ibbażat fuq l-Arial"
 
 msgctxt "#31393"
 msgid "Roboto Bold"
@@ -714,7 +715,7 @@ msgstr ""
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"
-msgstr ""
+msgstr "Gruppi[CR]Disponibbli"
 
 # empty strings from id 31507 to 31508
 msgctxt "#31509"
@@ -748,7 +749,7 @@ msgstr ""
 
 msgctxt "#31905"
 msgid "Forecast"
-msgstr ""
+msgstr "Tbassir tat-temp"
 
 # empty strings from id 31906 to 31907
 msgctxt "#31908"
@@ -757,11 +758,11 @@ msgstr ""
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr ""
+msgstr "Qed tinstab l-informazzjoni tat-tbassir..."
 
 msgctxt "#31910"
 msgid "Maps"
-msgstr ""
+msgstr "Mappep"
 
 # empty strings from id 31911 to 31916
 msgctxt "#31917"
@@ -863,31 +864,31 @@ msgstr ""
 # empty strings from id 31941 to 31949
 msgctxt "#31950"
 msgid "WEATHER"
-msgstr ""
+msgstr "TEMP"
 
 msgctxt "#31951"
 msgid "PICTURES"
-msgstr ""
+msgstr "STAMPI"
 
 msgctxt "#31952"
 msgid "TV"
-msgstr ""
+msgstr "Televixin"
 
 msgctxt "#31953"
 msgid "VIDEOS"
-msgstr ""
+msgstr "VIDJOS"
 
 msgctxt "#31954"
 msgid "MOVIES"
-msgstr ""
+msgstr "FILMS"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr ""
+msgstr "XOWS TELEVIŻIVI"
 
 msgctxt "#31956"
 msgid "MUSIC"
-msgstr ""
+msgstr "MUŻIKA"
 
 msgctxt "#31957"
 msgid "PROGRAMS"
@@ -895,12 +896,12 @@ msgstr ""
 
 msgctxt "#31958"
 msgid "PLAY DISC"
-msgstr ""
+msgstr "DOQQ CD"
 
 msgctxt "#31959"
 msgid "SYSTEM"
-msgstr ""
+msgstr "SISTEMA"
 
 msgctxt "#31960"
 msgid "RADIO"
-msgstr ""
+msgstr "RADJU"

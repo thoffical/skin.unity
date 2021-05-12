@@ -437,10 +437,6 @@ msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "Xortkats"
 
-msgctxt "#31201"
-msgid "Experimental"
-msgstr ""
-
 # empty strings from id 31201 to 31202
 msgctxt "#31203"
 msgid "Choose Your Song"

@@ -80,6 +80,10 @@ msgctxt "#31015"
 msgid "Video process information"
 msgstr "Video process information"
 
+msgctxt "#31016"
+msgid "Use Landscape Artwork"
+msgstr "Use Landscape Artwork"
+
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Unavailable"
@@ -288,6 +292,10 @@ msgctxt "#31104"
 msgid "Play Trailers in a window (Video Information Dialogue Only)"
 msgstr "Play Trailers in a window (Video Information Dialogue Only)"
 
+msgctxt "#31105"
+msgid "Mask background to hide submenu under transparent main menu"
+msgstr "Mask background to hide submenu under transparent main menu"
+
 msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Miscellaneous options"
@@ -344,6 +352,14 @@ msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Hide Background Fanart"
 
+msgctxt "#31120"
+msgid "Single Image"
+msgstr "Single Image"
+
+msgctxt "#31121"
+msgid "Multi-Image"
+msgstr "Multi-Image"
+
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
 msgstr "Show Background \"Now Playing\" Video"
@@ -375,6 +391,10 @@ msgstr "Fanart slideshow (Artist Slideshow add-on)"
 msgctxt "#31132"
 msgid "Lyrics Add-on"
 msgstr "Lyrics Add-on"
+
+msgctxt "#31133"
+msgid "Use submenu as widget"
+msgstr "Use submenu as widget"
 
 msgctxt "#31134"
 msgid "Home Page Videos Sub-menu"
@@ -411,6 +431,10 @@ msgstr "Always open fullscreen music playback"
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "Shortcuts"
+
+msgctxt "#31201"
+msgid "Experimental"
+msgstr "Experimental"
 
 msgctxt "#31203"
 msgid "Choose Your Song"

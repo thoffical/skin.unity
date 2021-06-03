@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2021-06-03 13:29+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Greek <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/el_gr/>\n"
 "Language: el_gr\n"
@@ -517,7 +517,7 @@ msgstr "Επιλογή Τραγουδιού Karaoke"
 
 msgctxt "#31322"
 msgid "Aired"
-msgstr "Πρώτη Προβολή"
+msgstr "Πρώτη προβολή"
 
 msgctxt "#31325"
 msgid "Playlist Options"
@@ -561,7 +561,7 @@ msgstr "Μπροστά"
 
 msgctxt "#31354"
 msgid "Rewind"
-msgstr "Πίσω"
+msgstr "Επαναφορά"
 
 msgctxt "#31355"
 msgid "Movie menu"
@@ -569,7 +569,7 @@ msgstr "Μενού Ταινιών"
 
 msgctxt "#31356"
 msgid "Download Subtitles"
-msgstr "Λήψη Υποτίτλων"
+msgstr "Λήψη υποτίτλων"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
@@ -675,9 +675,10 @@ msgctxt "#31502"
 msgid "Live TV"
 msgstr "Live TV"
 
+#, fuzzy
 msgctxt "#31503"
 msgid "Add Group"
-msgstr "Προσθήκη Γκρουπ"
+msgstr "Προσθήκη Ομάδας"
 
 msgctxt "#31504"
 msgid "Rename Group"

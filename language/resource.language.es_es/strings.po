@@ -17,6 +17,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+msgctxt "Addon Summary"
+msgid "A material skin for Kodi by Eddage"
+msgstr "Una skin material para Kodi por Eddage"
+
+msgctxt "Addon Description"
+msgid "Unity is an adaptation of Confluence based on a material design."
+msgstr "Unity es una adaptación de Confluence basada en diseño material."
+
+msgctxt "Addon Disclaimer"
+msgid "More info on the skin can be found at the Kodi Forums."
+msgstr "Hay mas información de la skin en los Foros de Kodi."
+
 msgctxt "#31000"
 msgid "Change Your"
 msgstr "Cambiar tus"

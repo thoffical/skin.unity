@@ -22,6 +22,24 @@
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://forum.kodi.tv/forumdisplay.php?fid=244</forum>
+		<source>https://github.com/bumpaneer/skin.unity/tree/Krypton</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot01.jpg</screenshot>
+			<screenshot>resources/screenshot02.jpg</screenshot>
+			<screenshot>resources/screenshot03.jpg</screenshot>
+			<screenshot>resources/screenshot04.jpg</screenshot>
+			<screenshot>resources/screenshot05.jpg</screenshot>
+			<screenshot>resources/screenshot06.jpg</screenshot>
+			<screenshot>resources/screenshot07.jpg</screenshot>
+			<screenshot>resources/screenshot08.jpg</screenshot>
+			<screenshot>resources/screenshot09.jpg</screenshot>
+			<screenshot>resources/screenshot10.jpg</screenshot>
+		</assets>
 		<summary lang="en_AU">A material skin for Kodi by Eddage</summary>
 		<summary lang="en_GB">A material skin for Kodi by Eddage</summary>
 		<summary lang="en_NZ">A material skin for Kodi by Eddage</summary>
@@ -43,23 +61,5 @@
 		<disclaimer lang="es_ES">Hay mas información de la skin en los Foros de Kodi.</disclaimer>
 		<disclaimer lang="gl_ES">Pódese atopar máis información sobre o tema nos foros de Kodi.</disclaimer>
 		<disclaimer lang="ro_RO">Mai multe informatii pot fi gasite in forumul Kodi</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>https://forum.kodi.tv/forumdisplay.php?fid=244</forum>
-		<source>https://github.com/bumpaneer/skin.unity/tree/Krypton</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot01.jpg</screenshot>
-			<screenshot>resources/screenshot02.jpg</screenshot>
-			<screenshot>resources/screenshot03.jpg</screenshot>
-			<screenshot>resources/screenshot04.jpg</screenshot>
-			<screenshot>resources/screenshot05.jpg</screenshot>
-			<screenshot>resources/screenshot06.jpg</screenshot>
-			<screenshot>resources/screenshot07.jpg</screenshot>
-			<screenshot>resources/screenshot08.jpg</screenshot>
-			<screenshot>resources/screenshot09.jpg</screenshot>
-			<screenshot>resources/screenshot10.jpg</screenshot>
-		</assets>
 	</extension>
 </addon>

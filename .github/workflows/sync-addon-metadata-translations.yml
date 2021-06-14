@@ -9,6 +9,7 @@ on:
 
 jobs:
   default:
+    if: github.repository == 'bumpaneer/skin.unity'
     runs-on: ubuntu-latest
 
     strategy:

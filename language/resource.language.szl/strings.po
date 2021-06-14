@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-02-23 08:14+0000\n"
+"PO-Revision-Date: 2021-04-30 11:13+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Silesian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/szl/>\n"
 "Language: szl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.6\n"
 
 msgctxt "#31000"
 msgid "Change Your"
@@ -35,7 +35,7 @@ msgstr ""
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr ""
+msgstr "Robi..."
 
 msgctxt "#31005"
 msgid "Hide Information"
@@ -51,7 +51,7 @@ msgstr ""
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr ""
+msgstr "Połny ekran"
 
 msgctxt "#31009"
 msgid "Total Duration"
@@ -59,23 +59,23 @@ msgstr ""
 
 msgctxt "#31010"
 msgid "Hardware decoding"
-msgstr ""
+msgstr "Dekodowanie maszinowe"
 
 msgctxt "#31011"
 msgid "Inactive"
-msgstr ""
+msgstr "Niyaktywny"
 
 msgctxt "#31012"
 msgid "Decoder"
-msgstr ""
+msgstr "Dekoder"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr ""
+msgstr "Przetwŏrzanie klangu"
 
 msgctxt "#31014"
 msgid "Memory used"
-msgstr ""
+msgstr "Użycie spamiyńci"
 
 msgctxt "#31015"
 msgid "Video process information"
@@ -84,7 +84,7 @@ msgstr ""
 # empty string with id 31016
 msgctxt "#31017"
 msgid "Unavailable"
-msgstr ""
+msgstr "Niydostympne"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
@@ -93,11 +93,11 @@ msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
-msgstr ""
+msgstr "Grŏ"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr ""
+msgstr "Zajta"
 
 msgctxt "#31025"
 msgid "Items"
@@ -109,7 +109,7 @@ msgstr "Roztōmajte sztelōnki"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr ""
+msgstr "Plac"
 
 msgctxt "#31028"
 msgid "Poster Wrap"
@@ -117,7 +117,7 @@ msgstr ""
 
 msgctxt "#31029"
 msgid "Fanart"
-msgstr ""
+msgstr "Fanart"
 
 msgctxt "#31030"
 msgid "Reset Skin"
@@ -133,7 +133,7 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 msgctxt "#31034"
 msgid "Media Info 2"
@@ -158,19 +158,19 @@ msgstr ""
 # empty string with id 31041
 msgctxt "#31042"
 msgid "PLAYING"
-msgstr ""
+msgstr "GRŎ"
 
 msgctxt "#31043"
 msgid "PAUSED"
-msgstr ""
+msgstr "PAUZA"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
-msgstr ""
+msgstr "DO PRZODKU"
 
 msgctxt "#31045"
 msgid "REWIND"
-msgstr ""
+msgstr "NAZŎD"
 
 msgctxt "#31046"
 msgid "SEEKING"
@@ -183,15 +183,15 @@ msgstr ""
 
 msgctxt "#31049"
 msgid "End Time"
-msgstr ""
+msgstr "Czas ukōńczynio"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr ""
+msgstr "Zortowanie: ôd nŏjmyńszych"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr ""
+msgstr "Zortowanie: ôd nŏjsrogszych"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -207,11 +207,11 @@ msgstr "Zawrzij playlistã"
 
 msgctxt "#31058"
 msgid "System music files"
-msgstr ""
+msgstr "Dostympne w systymie zbiory muzyczne"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr ""
+msgstr "Teroźno playlista"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
@@ -280,7 +280,7 @@ msgstr ""
 # empty strings from id 31076 to 31100
 msgctxt "#31101"
 msgid "Home screen options"
-msgstr ""
+msgstr "Ôpcyje przodnigo ekranu"
 
 msgctxt "#31102"
 msgid "Background"
@@ -297,7 +297,7 @@ msgstr ""
 # empty string with id 31105
 msgctxt "#31106"
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "Roztōmajte ôpcyje"
 
 msgctxt "#31107"
 msgid "Hide Flagging read from video filenames (Blu-ray, HD-DVD)"
@@ -313,15 +313,15 @@ msgstr ""
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr ""
+msgstr "Cesta ku ôbrŏzowi:"
 
 msgctxt "#31111"
 msgid "Hide"
-msgstr ""
+msgstr "Skryj"
 
 msgctxt "#31112"
 msgid "Options"
-msgstr ""
+msgstr "Ôpcyje"
 
 msgctxt "#31113"
 msgid "Multi-Image Background Timer:"
@@ -370,7 +370,7 @@ msgstr ""
 
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr ""
+msgstr "Tekst śpiywki"
 
 msgctxt "#31129"
 msgid "Hide Fanart in full screen visualisation"
@@ -401,7 +401,7 @@ msgstr ""
 # empty strings from id 31137 to 31139
 msgctxt "#31140"
 msgid "Music OSD"
-msgstr ""
+msgstr "OSD muzyki"
 
 msgctxt "#31141"
 msgid "Video OSD"
@@ -409,7 +409,7 @@ msgstr ""
 
 msgctxt "#31142"
 msgid "Settings level"
-msgstr ""
+msgstr "Poziōm sztelōnkōw"
 
 # empty strings from id 31143 to 31177
 msgctxt "#31178"
@@ -423,7 +423,7 @@ msgstr ""
 # empty strings from id 31180 to 31199
 msgctxt "#31200"
 msgid "Shortcuts"
-msgstr ""
+msgstr "Skrōty"
 
 # empty strings from id 31201 to 31202
 msgctxt "#31203"
@@ -436,7 +436,7 @@ msgstr "Przidŏwek tekstu śpiywek"
 
 msgctxt "#31206"
 msgid "Found"
-msgstr ""
+msgstr "Znŏlyziōne"
 
 msgctxt "#31207"
 msgid "Find More Items"
@@ -454,7 +454,7 @@ msgstr ""
 # empty strings from id 31233 to 31299
 msgctxt "#31300"
 msgid "Current Temp"
-msgstr ""
+msgstr "Tymperatura"
 
 msgctxt "#31301"
 msgid "Last Updated"
@@ -463,7 +463,7 @@ msgstr "Ôstatniŏ aktualizacyjŏ"
 # empty string with id 31302
 msgctxt "#31303"
 msgid "Data provider"
-msgstr ""
+msgstr "Dostŏwca datōw"
 
 # empty strings from id 31304 to 31306
 msgctxt "#31307"
@@ -518,7 +518,7 @@ msgstr "Selektōr Śpiywek Karaoke"
 
 msgctxt "#31322"
 msgid "Aired"
-msgstr ""
+msgstr "Prymiera"
 
 # empty strings from id 31323 to 31324
 msgctxt "#31325"
@@ -527,11 +527,11 @@ msgstr ""
 
 msgctxt "#31326"
 msgid "Created"
-msgstr ""
+msgstr "Zrychtowane"
 
 msgctxt "#31327"
 msgid "Resolution"
-msgstr ""
+msgstr "Ôzdzielczość"
 
 msgctxt "#31328"
 msgid "Recently Added"

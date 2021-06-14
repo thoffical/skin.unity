@@ -1,3 +1,9 @@
+[B]14/06/2021 - 0.19.3 [/B]
+[FIXED] Custom background option
+[FIXED] Default icons
+[FIXED] Use submenu as widget
+[UPDATED] Language translations
+
 [B]21/03/2021 - 0.19.2 [/B]
 [FIXED] Color overlay on additional views
 [FIXED] Settings dialog visibility and overlay

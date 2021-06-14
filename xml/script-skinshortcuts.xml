@@ -105,7 +105,7 @@
 				</control>
 				<!--scrollbar-->
 				<control type="scrollbar" id="31">
-					<left>-12</left>
+					<left>-16</left>
 					<top>110</top>
 					<height>603</height>
 					<onleft>300</onleft>

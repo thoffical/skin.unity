@@ -216,14 +216,6 @@
 						<visible>String.IsEqual(Window.Property(groupname), mainmenu)</visible>
 						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
 					</control>
-					<!--change widget layout-->
-					<control type="button" id="3001">
-						<width>995</width>
-						<label>$LOCALIZE[31610]</label>
-						<label2>$INFO[Container(211).ListItem.Property(widgetLayout)]</label2>
-						<visible>!String.IsEmpty(Container(211).ListItem.Property(widgetPath))</visible>
-						<enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
-					</control>
 					<!--edit sub-menu-->
 					<control type="button" id="405">
 						<width>995</width>

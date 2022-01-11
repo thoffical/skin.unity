@@ -60,6 +60,6 @@
 	<property property="widgetLayout" label="$LOCALIZE[31614]" condition="String.IsEqual(Container(211).ListItem.Property(widgetType),weather)">Weather</property>
 	<property property="widgetLayout" label="$LOCALIZE[31611]">Poster</property>
 	<property property="widgetLayout" label="$LOCALIZE[31612]" condition="!String.IsEqual(Container(211).ListItem.Property(widgetType),people)">Square</property>
-	<propertySettings property="widgetLayout" buttonID="3001" title="$LOCALIZE[31610]" showNone="false" />
+	<propertySettings property="widgetLayout" buttonID="312" title="$LOCALIZE[31610]" showNone="false" />
 	
 </overrides>

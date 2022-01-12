@@ -5,29 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-04-30 11:13+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-10-03 13:41+0000\n"
+"Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/pl_pl/>\n"
 "Language: pl_pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.8\n"
 
 msgctxt "Addon Summary"
 msgid "A material skin for Kodi by Eddage"
-msgstr ""
+msgstr "Skóra Material dla Kodi autorstwa Eddage"
 
 msgctxt "Addon Description"
 msgid "Unity is an adaptation of Confluence based on a material design."
-msgstr ""
+msgstr "Unity to adaptacja Confluence oparta na Material Design."
 
 msgctxt "Addon Disclaimer"
 msgid "More info on the skin can be found at the Kodi Forums."
-msgstr ""
+msgstr "Więcej informacji na temat skóry można znaleźć na forum Kodi."
 
 msgctxt "#31000"
 msgid "Change Your"
@@ -47,7 +47,7 @@ msgstr "Opcje zasilania"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr "Uruchamianie..."
+msgstr "Proszę czekać..."
 
 msgctxt "#31005"
 msgid "Hide Information"
@@ -93,6 +93,10 @@ msgctxt "#31015"
 msgid "Video process information"
 msgstr "Informacje o przetwarzaniu wideo"
 
+msgctxt "#31016"
+msgid "Use Landscape Artwork"
+msgstr "Użyj grafiki krajobrazu"
+
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Niedostępne"
@@ -127,7 +131,7 @@ msgstr "Kolejka plakatów"
 
 msgctxt "#31029"
 msgid "Fanart"
-msgstr "Tapeta"
+msgstr "Fototapeta"
 
 msgctxt "#31030"
 msgid "Reset Skin"
@@ -183,11 +187,11 @@ msgstr "DO TYŁU"
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr "PRZESZUKIWANIE"
+msgstr "PRZEWIJANIE"
 
 msgctxt "#31048"
 msgid "Visualisation Presets"
-msgstr "Zestaw ustawień wizualizacji"
+msgstr "Zdefiniowane szablony wizualizacji"
 
 msgctxt "#31049"
 msgid "End Time"
@@ -287,7 +291,7 @@ msgstr "Przywróć domyślne wszystkie ustawienia skóry"
 
 msgctxt "#31101"
 msgid "Home screen options"
-msgstr "Opcje ekranu"
+msgstr "Opcje ekranu startowego"
 
 msgctxt "#31102"
 msgid "Background"
@@ -299,11 +303,11 @@ msgstr "Pokazuj \"Pauza\" podczas pokazu slajdów"
 
 msgctxt "#31104"
 msgid "Play Trailers in a window (Video Information Dialogue Only)"
-msgstr ""
+msgstr "Odtwarzaj zwiastuny w oknie (tylko okno dialogowe z informacjami o filmie)"
 
 msgctxt "#31105"
 msgid "Mask background to hide submenu under transparent main menu"
-msgstr ""
+msgstr "Maskuj tło, aby ukryć podmenu pod przezroczystym menu głównym"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -311,7 +315,7 @@ msgstr "Opcje dodatkowe"
 
 msgctxt "#31107"
 msgid "Hide Flagging read from video filenames (Blu-ray, HD-DVD)"
-msgstr ""
+msgstr "Ukrywaj etykiety mediów wczytane z nazw plików (Blu-ray, HD-DVD)"
 
 msgctxt "#31108"
 msgid "Hide Main Menu Buttons"
@@ -335,7 +339,7 @@ msgstr "Opcje"
 
 msgctxt "#31113"
 msgid "Multi-Image Background Timer:"
-msgstr ""
+msgstr "Harmonogram tła z wieloma obrazami:"
 
 msgctxt "#31114"
 msgid "seconds"
@@ -343,7 +347,7 @@ msgstr "sekund"
 
 msgctxt "#31115"
 msgid "Auto-hide the Sub-menu"
-msgstr ""
+msgstr "Automatyczne ukrywaj podmenu"
 
 msgctxt "#31116"
 msgid "Show Recently added Albums"
@@ -363,11 +367,11 @@ msgstr "Nie używaj tapet w roli tła"
 
 msgctxt "#31120"
 msgid "Single Image"
-msgstr ""
+msgstr "Pojedynczy obraz"
 
 msgctxt "#31121"
 msgid "Multi-Image"
-msgstr ""
+msgstr "Wiele obrazów"
 
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
@@ -391,15 +395,19 @@ msgstr "Tekst utworu"
 
 msgctxt "#31129"
 msgid "Hide Fanart in full screen visualisation"
-msgstr "Ukrywaj tapety podczas pełnoekranowej wizualizacji"
+msgstr "Ukrywaj fototapety podczas wizualizacji muzyki"
 
 msgctxt "#31130"
 msgid "Fanart slideshow (Artist Slideshow add-on)"
-msgstr ""
+msgstr "Pokaz slajdów fototapet (dodatek Artist Slideshow)"
 
 msgctxt "#31132"
 msgid "Lyrics Add-on"
 msgstr "Dodatek Tekst utworu"
+
+msgctxt "#31133"
+msgid "Use submenu as widget"
+msgstr "Użyj podmenu jako widżetu"
 
 msgctxt "#31134"
 msgid "Home Page Videos Sub-menu"
@@ -428,7 +436,7 @@ msgstr "Poziom ustawień"
 # empty strings from id 31143 to 31177
 msgctxt "#31178"
 msgid "Stop video on back"
-msgstr ""
+msgstr "Zatrzymaj wideo, naciskając wstecz"
 
 msgctxt "#31179"
 msgid "Always open fullscreen music playback"
@@ -440,7 +448,7 @@ msgstr "Skróty"
 
 msgctxt "#31201"
 msgid "Experimental"
-msgstr ""
+msgstr "Eksperymentalne"
 
 msgctxt "#31203"
 msgid "Choose Your Song"
@@ -480,7 +488,7 @@ msgstr "Dostawca danych"
 
 msgctxt "#31307"
 msgid "Hide Fanart"
-msgstr "Ukrywaj tapety"
+msgstr "Ukrywaj fototapety"
 
 msgctxt "#31308"
 msgid "Movie Details"
@@ -512,7 +520,7 @@ msgstr "Opcje skanowania zawartości"
 
 msgctxt "#31317"
 msgid "Set Fanart Path"
-msgstr "Ustaw ścieżkę do folderu tapet"
+msgstr "Ustaw ścieżkę folderu z fototapetami"
 
 msgctxt "#31319"
 msgid "Selected Profile"
@@ -524,7 +532,7 @@ msgstr "Ostatnio zalogowany"
 
 msgctxt "#31321"
 msgid "Karaoke Song Selector"
-msgstr "Selektor utworów Karaoke"
+msgstr "Wybór utworów karaoke"
 
 msgctxt "#31322"
 msgid "Aired"
@@ -564,7 +572,7 @@ msgstr "Pauza"
 
 msgctxt "#31352"
 msgid "Stop"
-msgstr "Stop"
+msgstr "Zatrzymaj"
 
 msgctxt "#31353"
 msgid "Fast Forward"
@@ -604,15 +612,15 @@ msgstr "Domyślne dla skóry bez wielkich liter"
 
 msgctxt "#31392"
 msgid "Arial based"
-msgstr "Bazujące na Arialu"
+msgstr "Bazujące na Arial"
 
 msgctxt "#31393"
 msgid "Roboto Bold"
-msgstr ""
+msgstr "Roboto pogrubiona"
 
 msgctxt "#31394"
 msgid "Roboto Black (Boldest)"
-msgstr ""
+msgstr "Roboto czarna (najgrubsza)"
 
 msgctxt "#31400"
 msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
@@ -716,7 +724,7 @@ msgstr "Opcje kanału"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"
-msgstr "Prognoza 36 godzinna"
+msgstr "Prognoza 36-godzinna"
 
 msgctxt "#31902"
 msgid "Hourly Forecast"

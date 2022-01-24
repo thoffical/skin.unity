@@ -21,8 +21,12 @@
 		<shortcut label="31133" type="32053" icon="DefaultFile.png" widget="addon" widgetType="none" widgetTarget="include">skinshortcuts-submenu</shortcut>
 		<shortcut label="12600" type="$INFO[Window(weather).Property(WeatherProvider)]" condition="!String.IsEmpty(Weather.Plugin)" icon="DefaultAddonWeather.png" widget="addon" widgetType="weather" widgetTarget="video">weather</shortcut>
 		<node label="136">
-			<content>playlist-video</content>
-			<content>playlist-audio</content>
+			<node label="32004">
+				<content>playlist-video</content>
+			</node>
+			<node label="32005">
+				<content>playlist-audio</content>
+			</node>
 		</node>
 		<node label="32030">
 			<content>video</content>
@@ -55,11 +59,29 @@
 		</node>
 	</widget-groupings>
 
-	<!-- Widget Layout  -->
+	<!-- Widget Layout -->
 	<property property="widgetLayout" label="$LOCALIZE[31613]" condition="[String.IsEqual(Container(211).ListItem.Property(widgetType),system) | String.IsEqual(Container(211).ListItem.Property(widgetType),custom)]">Wide</property>
 	<property property="widgetLayout" label="$LOCALIZE[31614]" condition="String.IsEqual(Container(211).ListItem.Property(widgetType),weather)">Weather</property>
 	<property property="widgetLayout" label="$LOCALIZE[31611]">Poster</property>
 	<property property="widgetLayout" label="$LOCALIZE[31612]" condition="!String.IsEqual(Container(211).ListItem.Property(widgetType),people)">Square</property>
-	<propertySettings property="widgetLayout" buttonID="312" title="$LOCALIZE[31610]" showNone="false" />
+	<propertySettings property="widgetLayout" buttonID="3001" title="$LOCALIZE[31610]" showNone="false" />
+	
+		<!-- Widget Default Values If Empty  -->
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="weather">Weather</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="musicvideos">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="songs">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="albums">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="artists">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="singles">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="favourite">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="addon">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="pvr">Square</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="system">Wide</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="custom">Wide</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="movies">Poster</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="tvshows">Poster</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="episodes">Poster</propertyfallback>
+	<propertyfallback property="widgetLayout" attribute="widgetType" value="seasons">Poster</propertyfallback>
+	<propertyfallback property="widgetLayout">Square</propertyfallback>
 	
 </overrides>

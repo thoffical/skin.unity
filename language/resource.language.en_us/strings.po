@@ -720,6 +720,26 @@ msgctxt "#31511"
 msgid "Channel Options"
 msgstr "Channel Options"
 
+msgctxt "#31610"
+msgid "Artwork Type"
+msgstr "Artwork Type"
+
+msgctxt "#31611"
+msgid "Poster"
+msgstr "Poster"
+
+msgctxt "#31612"
+msgid "Square"
+msgstr "Square"
+
+msgctxt "#31613"
+msgid "Wide"
+msgstr "Wide"
+
+msgctxt "#31614"
+msgid "Weather"
+msgstr "Weather"
+
 msgctxt "#31901"
 msgid "36 Hour Forecast"
 msgstr "36 Hour Forecast"

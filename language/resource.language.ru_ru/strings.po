@@ -5,17 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-03 13:29+0000\n"
-"Last-Translator: Konon <masterbsh75@gmail.com>\n"
+"PO-Revision-Date: 2021-09-26 13:30+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/ru_ru/>\n"
 "Language: ru_ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
+
+msgctxt "Addon Summary"
+msgid "A material skin for Kodi by Eddage"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Unity is an adaptation of Confluence based on a material design."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "More info on the skin can be found at the Kodi Forums."
+msgstr ""
 
 msgctxt "Addon Summary"
 msgid "A material skin for Kodi by Eddage"
@@ -83,7 +95,7 @@ msgstr "Декодер"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr "Информация об аудио процессе"
+msgstr "Сведения об аудиопроцесе"
 
 msgctxt "#31014"
 msgid "Memory used"
@@ -92,6 +104,10 @@ msgstr "Использовано памяти"
 msgctxt "#31015"
 msgid "Video process information"
 msgstr "Информация о видео процессе"
+
+msgctxt "#31016"
+msgid "Use Landscape Artwork"
+msgstr ""
 
 msgctxt "#31017"
 msgid "Unavailable"
@@ -105,15 +121,13 @@ msgctxt "#31023"
 msgid "Playing"
 msgstr "Воспроизведение"
 
-#, fuzzy
 msgctxt "#31024"
 msgid "Page"
 msgstr "Страница"
 
-#, fuzzy
 msgctxt "#31025"
 msgid "Items"
-msgstr "объекты"
+msgstr "Объекты"
 
 msgctxt "#31026"
 msgid "Misc Options"
@@ -401,7 +415,11 @@ msgstr ""
 
 msgctxt "#31132"
 msgid "Lyrics Add-on"
-msgstr "Дополнение текстов песен"
+msgstr "Тексты песен дополнения"
+
+msgctxt "#31133"
+msgid "Use submenu as widget"
+msgstr ""
 
 msgctxt "#31134"
 msgid "Home Page Videos Sub-menu"
@@ -472,10 +490,9 @@ msgctxt "#31300"
 msgid "Current Temp"
 msgstr "Текущая температура"
 
-#, fuzzy
 msgctxt "#31301"
 msgid "Last Updated"
-msgstr "Последнее обновление"
+msgstr "Обновлено"
 
 msgctxt "#31303"
 msgid "Data provider"
@@ -515,7 +532,7 @@ msgstr "Параметры сканирования содержимого"
 
 msgctxt "#31317"
 msgid "Set Fanart Path"
-msgstr "Выбрать расположение фанарта"
+msgstr "Установить путь к фанартам"
 
 msgctxt "#31319"
 msgid "Selected Profile"
@@ -595,12 +612,11 @@ msgstr "Изменить режим"
 
 msgctxt "#31362"
 msgid "Enabled"
-msgstr "Вкл."
+msgstr "Включить"
 
-#, fuzzy
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Стандартные"
+msgstr "По умолчанию"
 
 msgctxt "#31391"
 msgid "Skin default with no Caps"

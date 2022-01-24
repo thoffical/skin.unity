@@ -778,7 +778,29 @@ msgctxt "#31511"
 msgid "Channel Options"
 msgstr ""
 
-#empty strings from id 31512 to 31900
+#empty strings from id 31512 to 31609
+
+msgctxt "#31610"
+msgid "Artwork Type"
+msgstr ""
+
+msgctxt "#31611"
+msgid "Poster"
+msgstr ""
+
+msgctxt "#31612"
+msgid "Square"
+msgstr ""
+
+msgctxt "#31613"
+msgid "Wide"
+msgstr ""
+
+msgctxt "#31614"
+msgid "Weather"
+msgstr ""
+
+#empty strings from id 31515 to 31900
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

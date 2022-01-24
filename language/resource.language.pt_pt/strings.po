@@ -5,17 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-04-30 11:13+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-10-03 13:41+0000\n"
+"Last-Translator: Peter J. Mello <admin@petermello.net>\n"
 "Language-Team: Portuguese (Portugal) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-unity/pt_pt/>\n"
 "Language: pt_pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.8\n"
+
+msgctxt "Addon Summary"
+msgid "A material skin for Kodi by Eddage"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Unity is an adaptation of Confluence based on a material design."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "More info on the skin can be found at the Kodi Forums."
+msgstr ""
 
 msgctxt "Addon Summary"
 msgid "A material skin for Kodi by Eddage"
@@ -91,6 +103,10 @@ msgstr "Memória usada"
 
 msgctxt "#31015"
 msgid "Video process information"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Use Landscape Artwork"
 msgstr ""
 
 msgctxt "#31017"
@@ -179,7 +195,7 @@ msgstr "AVANÇAR"
 
 msgctxt "#31045"
 msgid "REWIND"
-msgstr "RETROCEDER"
+msgstr "RECUAR"
 
 msgctxt "#31046"
 msgid "SEEKING"
@@ -191,27 +207,27 @@ msgstr "Pré-selecções de Visualização"
 
 msgctxt "#31049"
 msgid "End Time"
-msgstr "Fim às"
+msgstr "Hora de fim"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Orientar: Ascendente"
+msgstr "Ordenar: Ascendente"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Orientar: Descendente"
+msgstr "Ordenar: Descendente"
 
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr "Abrir Lista Reprodução"
+msgstr "Abrir lista de reprodução"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr "Guardar Lista Reprodução"
+msgstr "Guardar lista de reprodução"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr "Fechar Lista Reprodução"
+msgstr "Fechar lista de reprodução"
 
 msgctxt "#31058"
 msgid "System music files"
@@ -219,7 +235,7 @@ msgstr "Ficheiros de música do sistema"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr "Lista de Reprodução Actual"
+msgstr "Lista de reprodução atual"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
@@ -401,6 +417,10 @@ msgctxt "#31132"
 msgid "Lyrics Add-on"
 msgstr "Add-on de Letras de música"
 
+msgctxt "#31133"
+msgid "Use submenu as widget"
+msgstr ""
+
 msgctxt "#31134"
 msgid "Home Page Videos Sub-menu"
 msgstr "Submenu de Vídeos da Página Inicial"
@@ -469,11 +489,11 @@ msgstr ""
 
 msgctxt "#31300"
 msgid "Current Temp"
-msgstr "Temperatura actual"
+msgstr "Temperatura atual"
 
 msgctxt "#31301"
 msgid "Last Updated"
-msgstr "Última Actualização"
+msgstr "Última atualização"
 
 msgctxt "#31303"
 msgid "Data provider"
@@ -521,7 +541,7 @@ msgstr "Perfil Seleccionado"
 
 msgctxt "#31320"
 msgid "Last Logged In"
-msgstr "Última Vez Ligado"
+msgstr "Última ligação"
 
 msgctxt "#31321"
 msgid "Karaoke Song Selector"
@@ -581,7 +601,7 @@ msgstr "Menu do filme"
 
 msgctxt "#31356"
 msgid "Download Subtitles"
-msgstr "Transferir Legendas"
+msgstr "Descarregar Legendas"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
@@ -669,7 +689,7 @@ msgstr "Início de Sessão"
 
 msgctxt "#31421"
 msgid "Select your Kodi user Profile[CR]to login and continue"
-msgstr "Escolha o seu perfil de utilizador do Kodi[CR]para iniciar sessão e prosseguir"
+msgstr "Escolha o seu perfil de utilizador do Kodi[CR]para iniciar sessão e continuar"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."

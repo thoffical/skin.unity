@@ -29,18 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "More info on the skin can be found at the Kodi Forums."
 msgstr ""
 
-msgctxt "Addon Summary"
-msgid "A material skin for Kodi by Eddage"
-msgstr ""
-
-msgctxt "Addon Description"
-msgid "Unity is an adaptation of Confluence based on a material design."
-msgstr ""
-
-msgctxt "Addon Disclaimer"
-msgid "More info on the skin can be found at the Kodi Forums."
-msgstr ""
-
 msgctxt "#31000"
 msgid "Change Your"
 msgstr "Αλλαγή"

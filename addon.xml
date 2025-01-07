@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="skin.unity"
-	version="0.19.4"
-	name="Unity"
-	provider-name="Eddage, Bumpaneer">
+	id="skin.unitymod"
+	version="1.0"
+	name="Unity Mod"
+	provider-name="idealkooks">
 	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.skinshortcuts" version="1.1.4"/>
+		<import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="script.skinshortcuts" version="2.0.3"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
